@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ebe93c2f-0aae-4f69-99fc-930f63b0ac94")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 382.27 139.7)
+		(size 157.48 137.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b9bfb89-4b08-43bb-8e52-e82396130844")
+		(property "Sheetname" "Sensor"
+			(at 382.27 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 382.27 277.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 257.81)
+		(size 226.06 123.19)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd494bae-08c6-4b46-92c8-f2c39e9b21e0")
+		(property "Sheetname" "MCU"
+			(at 38.1 257.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 38.1 381.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
