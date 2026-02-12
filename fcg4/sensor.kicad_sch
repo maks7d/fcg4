@@ -435,10 +435,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "fcg4:SPL06-001"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProLib_pcs_2026-02-12:SENSOR-SMD_SPL06-001"
+				(at 0 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/SPL06-001/2782076.html"
+				(at 0 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pressure range:30Kpa~1.1bar Pressure range:30Kpa~1.1bar Voltage - Supply:1.7V~3.6V Voltage - Supply:1.7V~3.6V Standby Current:1uA Interface:I2C；SPI Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C Absolute Accuracy:1hpa Relative Accuracy:0."
+				(at 1.524 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SPL06-001"
+				(at 0 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Goertek(歌尔)"
+				(at 0.254 -21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C2684428"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at -0.254 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "普通气压传感器 停产"
+				(at 0 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPL06-001_1_0"
+				(rectangle
+					(start -8.89 6.35)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 254 255 7 1)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(symbol
 		(lib_id "fcg4:ICM-42688-P")
-		(at 132.08 93.98 0)
+		(at 68.58 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -447,7 +699,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cd7c9d1-42dc-4913-bb3d-66594e0d97db")
 		(property "Reference" "U2"
-			(at 132.08 73.66 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,7 +707,7 @@
 			)
 		)
 		(property "Value" "ICM-42688-P"
-			(at 132.08 76.2 0)
+			(at 68.58 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,7 +715,7 @@
 			)
 		)
 		(property "Footprint" "fcg4_fp:PQFN50P300X250X97-14N"
-			(at 131.572 125.984 0)
+			(at 68.072 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,7 +725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 93.98 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 93.98 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +743,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "1428-ICM-42688-PCT-ND"
-			(at 132.08 75.438 0)
+			(at 68.58 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -501,7 +753,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=snap"
-			(at 133.604 64.008 0)
+			(at 70.104 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -511,7 +763,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.97mm"
-			(at 132.334 59.436 0)
+			(at 68.834 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,7 +773,7 @@
 			)
 		)
 		(property "Package" "LGA-14 TDK InvenSense"
-			(at 132.334 73.152 0)
+			(at 68.834 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +783,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=eda"
-			(at 132.334 70.104 0)
+			(at 68.834 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +793,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 133.35 130.556 0)
+			(at 69.85 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +803,7 @@
 			)
 		)
 		(property "PARTREV" "1.2"
-			(at 132.842 52.578 0)
+			(at 69.342 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +813,7 @@
 			)
 		)
 		(property "MF" "TDK InvenSense"
-			(at 133.858 56.388 0)
+			(at 70.358 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,7 +823,7 @@
 			)
 		)
 		(property "MP" "ICM-42688-P"
-			(at 132.08 121.666 0)
+			(at 68.58 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,7 +833,7 @@
 			)
 		)
 		(property "Description_1" "Accelerometer, Gyroscope, 6 Axis Sensor - Output"
-			(at 132.842 118.364 0)
+			(at 69.342 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +843,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK InvenSense"
-			(at 133.35 61.468 0)
+			(at 69.85 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,6 +898,137 @@
 			(project ""
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/4b9bfb89-4b08-43bb-8e52-e82396130844"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fcg4:SPL06-001")
+		(at 222.25 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca33acc0-c8ab-4261-8615-ae1142eaa18f")
+		(property "Reference" "U3"
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 222.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProLib_pcs_2026-02-12:SENSOR-SMD_SPL06-001"
+			(at 222.25 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SPL06-001/2782076.html"
+			(at 222.25 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pressure range:30Kpa~1.1bar Pressure range:30Kpa~1.1bar Voltage - Supply:1.7V~3.6V Voltage - Supply:1.7V~3.6V Standby Current:1uA Interface:I2C；SPI Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C Absolute Accuracy:1hpa Relative Accuracy:0."
+			(at 223.774 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SPL06-001"
+			(at 222.25 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Goertek(歌尔)"
+			(at 222.504 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2684428"
+			(at 222.25 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 221.996 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "普通气压传感器 停产"
+			(at 222.25 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "626a25e0-6680-413e-bd3f-d4e4866275f1")
+		)
+		(pin "8"
+			(uuid "5231e554-e86b-4e26-8dda-4d7f450c9e5f")
+		)
+		(pin "3"
+			(uuid "b46e57bd-fc8a-48e3-9d3c-61c22413f939")
+		)
+		(pin "2"
+			(uuid "8d70e999-207a-43d1-8f6f-67b00bd4963a")
+		)
+		(pin "4"
+			(uuid "5848fb69-d3aa-4e65-aee9-598c54fbd9af")
+		)
+		(pin "7"
+			(uuid "b3d48644-ed42-49fb-b3f7-d27c4c1de1d6")
+		)
+		(pin "5"
+			(uuid "de1f3aaf-a73b-403f-9a25-0cddda9167f9")
+		)
+		(pin "6"
+			(uuid "2e5b593c-9e9c-4da2-8b76-073b97bd348c")
+		)
+		(instances
+			(project ""
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/4b9bfb89-4b08-43bb-8e52-e82396130844"
+					(reference "U3")
 					(unit 1)
 				)
 			)
