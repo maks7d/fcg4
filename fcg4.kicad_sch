@@ -98,6 +98,48 @@
 		)
 	)
 	(sheet
+		(at -44.45 302.26)
+		(size 61.595 125.73)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "895fabe0-ab4c-4c61-9719-dac54426ec22")
+		(property "Sheetname" "Connectors"
+			(at -44.45 301.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at -44.45 428.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 257.81)
 		(size 226.06 123.19)
 		(exclude_from_sim no)
