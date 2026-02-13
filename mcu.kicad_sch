@@ -1902,274 +1902,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fcg4:2171750001"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 15.5956 9.1186 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "2171750001"
-				(at 14.9606 6.5786 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "fcg4_fp:2171750001_MOL"
-				(at 0 11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" "900-2171750001CT-ND"
-				(at 0 15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/2171750001/Molex/view-part/?ref=snap"
-				(at 3.81 22.352 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (6+18 Dummy) - Power Only 6 Pin Position Surface Mount, Right Angle; Through Hole"
-				(at 1.016 -20.828 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/2171750001/Molex/view-part/?ref=eda"
-				(at 5.08 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Molex"
-				(at 0 -24.384 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "2171750001"
-				(at -2.286 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MFR_NAME" "Molex Connector Corporation"
-				(at -3.556 9.652 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "2171750001"
-				(at 0 28.194 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "2171750001_0_0"
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 7.62)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "VBUS_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "2171750001_1_1"
-				(rectangle
-					(start 7.62 2.54)
-					(end 19.05 -15.24)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "fcg4:ABM3C-25.000MHZ-D4Y-T"
 			(pin_names
 				(offset 1.016)
@@ -2566,6 +2298,382 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "fcg4:USB4105-GF-A-120"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -15.24 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USB4105-GF-A-120"
+				(at -15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "fcg4_fp:GCT_USB4105-GF-A-120"
+				(at 1.27 37.846 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "2073-USB4105-GF-A-120CT-ND"
+				(at -1.524 16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4105GFA120/Global+Connector+Technology/view-part/?ref=snap"
+				(at -0.254 22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.31mm"
+				(at -2.032 29.718 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at -2.032 44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/USB4105GFA120/Global+Connector+Technology/view-part/?ref=eda"
+				(at -1.27 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at -2.032 44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "B3"
+				(at -2.032 44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Global Connector Technology"
+				(at -1.778 34.798 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "USB4105GFA120"
+				(at -1.778 32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "USB CONN, 2.0 TYPE C, RCPT, 16POS, SMT; USB Connector Type:USB Type C; USB Standard:USB 2.0; Gender:Receptacle; No. of Positions:16Positions; Connector Mounting:Surface Mount, Through Hole Mount; Orientation:Right Angle RoHS Compliant: Yes"
+				(at -0.254 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Global Connector Technology"
+				(at -2.032 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "USB4105-GF-A-120_0_0"
+				(rectangle
+					(start -15.24 12.7)
+					(end 1.27 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 8.89 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A4_B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 6.35 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 3.81 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 1.27 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1_B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -1.27 180)
+					(length 5.08)
+					(name "SHELL_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2679,6 +2787,12 @@
 		(uuid "343e3ead-e94d-419e-aa06-038f49015436")
 	)
 	(junction
+		(at 213.36 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "005a8d6a-f1d0-4b39-996b-5202f3a13203")
+	)
+	(junction
 		(at 240.03 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2731,6 +2845,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68de47db-3a33-4353-8fe8-5d294655526a")
+	)
+	(junction
+		(at 255.27 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e4c94ac-b815-4dd1-bb57-4d3400198ae6")
 	)
 	(junction
 		(at 45.72 63.5)
@@ -2817,6 +2937,10 @@
 		(uuid "f900eef2-4d0b-4510-899a-fbf1489a662d")
 	)
 	(no_connect
+		(at 254 135.89)
+		(uuid "14275cf4-3920-494a-b633-fd05b978e624")
+	)
+	(no_connect
 		(at 120.65 81.28)
 		(uuid "17f1357f-06e8-4344-946b-5b48d4a30237")
 	)
@@ -2828,6 +2952,10 @@
 		(at 120.65 78.74)
 		(uuid "8b9f185e-1c60-430d-81c1-871cd0278f89")
 	)
+	(no_connect
+		(at 254 138.43)
+		(uuid "caaa14cc-2cd7-4ab5-abae-3037620fddbc")
+	)
 	(wire
 		(pts
 			(xy 81.28 49.53) (xy 81.28 50.8)
@@ -2837,6 +2965,16 @@
 			(type default)
 		)
 		(uuid "00b3a26c-f756-4219-95b1-4e555c2cd0b1")
+	)
+	(wire
+		(pts
+			(xy 220.98 142.24) (xy 227.33 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ba8df0-98dc-4228-8cdb-769e5c3bcc48")
 	)
 	(wire
 		(pts
@@ -2927,6 +3065,16 @@
 			(type default)
 		)
 		(uuid "118b22a3-1988-4b95-a883-85e7bcfae030")
+	)
+	(wire
+		(pts
+			(xy 213.36 137.16) (xy 213.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b373f7-a7bb-4dd2-8c20-047d9b8a90d9")
 	)
 	(wire
 		(pts
@@ -3050,6 +3198,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 132.08) (xy 227.33 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371136e4-3a5e-47b1-b39c-97826149f08d")
+	)
+	(wire
+		(pts
 			(xy 83.82 78.74) (xy 85.09 78.74)
 		)
 		(stroke
@@ -3077,6 +3235,16 @@
 			(type default)
 		)
 		(uuid "3965c387-bd01-471c-a6e7-40a9694ddf30")
+	)
+	(wire
+		(pts
+			(xy 220.98 137.16) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a8f605-6735-4c53-bf61-aec7ad1b0e8e")
 	)
 	(wire
 		(pts
@@ -3210,6 +3378,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 133.35) (xy 256.54 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfe5187-de5a-49e5-9763-df89a86ef150")
+	)
+	(wire
+		(pts
+			(xy 220.98 139.7) (xy 227.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612cb54c-460c-468a-be7b-1289415c9e21")
+	)
+	(wire
+		(pts
 			(xy 227.33 25.4) (xy 220.98 25.4)
 		)
 		(stroke
@@ -3287,6 +3475,16 @@
 			(type default)
 		)
 		(uuid "69790e1d-89f3-40fd-8df1-2c1f56975ffc")
+	)
+	(wire
+		(pts
+			(xy 217.17 132.08) (xy 213.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a41a0c5-8e21-4d08-9e1a-86e1f2a8bb8b")
 	)
 	(wire
 		(pts
@@ -3440,6 +3638,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 143.51) (xy 255.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c73ac4f-4a58-446a-a62d-1254bb6a54b2")
+	)
+	(wire
+		(pts
 			(xy 217.17 25.4) (xy 220.98 25.4)
 		)
 		(stroke
@@ -3447,6 +3655,16 @@
 			(type default)
 		)
 		(uuid "8e974bba-d6fa-4535-9f99-6d274cef1973")
+	)
+	(wire
+		(pts
+			(xy 254 140.97) (xy 255.27 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946abe0a-381a-43fe-85bf-48a25cd487f8")
 	)
 	(wire
 		(pts
@@ -3467,6 +3685,26 @@
 			(type default)
 		)
 		(uuid "9603e235-ea6a-4c93-875b-4ba91c2f62ce")
+	)
+	(wire
+		(pts
+			(xy 213.36 132.08) (xy 213.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961856a6-638a-4b78-b09a-975a46256c3c")
+	)
+	(wire
+		(pts
+			(xy 213.36 134.62) (xy 217.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b48ee80-2505-4952-8a48-84b63d67ce7d")
 	)
 	(wire
 		(pts
@@ -3497,6 +3735,16 @@
 			(type default)
 		)
 		(uuid "a45438be-4a4c-4569-9582-b34775adc3dd")
+	)
+	(wire
+		(pts
+			(xy 224.79 134.62) (xy 227.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fe03e8-946c-413e-826e-b94310606d36")
 	)
 	(wire
 		(pts
@@ -3547,6 +3795,16 @@
 			(type default)
 		)
 		(uuid "af5a8ddc-08a8-4d98-8c6d-90f507844acb")
+	)
+	(wire
+		(pts
+			(xy 220.98 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1991f42-fccf-44fa-8017-c7a13b06a632")
 	)
 	(wire
 		(pts
@@ -3617,6 +3875,16 @@
 			(type default)
 		)
 		(uuid "b85c9b5a-7bfd-490d-abeb-3db7e699ea9b")
+	)
+	(wire
+		(pts
+			(xy 255.27 140.97) (xy 255.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e3a756-090e-4125-ada8-d0e498d30211")
 	)
 	(wire
 		(pts
@@ -3707,6 +3975,16 @@
 			(type default)
 		)
 		(uuid "d06b7b46-0540-49d1-9359-b37f59c2e77d")
+	)
+	(wire
+		(pts
+			(xy 255.27 146.05) (xy 255.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19bfa30-6808-480d-b129-1de5e30b2767")
 	)
 	(wire
 		(pts
@@ -3907,6 +4185,46 @@
 			(type default)
 		)
 		(uuid "fbf0937d-57e6-4b70-9ade-ac14417bbaaa")
+	)
+	(label "DIFF+"
+		(at 220.98 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2316e6cc-17d0-4408-a9bf-eb78d79c7451")
+	)
+	(label "DIFF+"
+		(at 220.98 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50320a75-6b18-491b-b96e-cd4dbca5a493")
+	)
+	(label "DIFF-"
+		(at 220.98 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b743ca13-4709-4d29-b825-6516d547c512")
+	)
+	(label "DIFF-"
+		(at 220.98 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb746768-8d2d-45f5-8034-2832ebf3b9fa")
 	)
 	(global_label "GYRO_1_EXTI"
 		(shape input)
@@ -4436,6 +4754,28 @@
 			)
 		)
 	)
+	(global_label "5V8USB"
+		(shape input)
+		(at 256.54 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abaf65bd-d0c8-4115-b5b9-5867923323ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.8428 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX3"
 		(shape input)
 		(at 83.82 114.3 180)
@@ -4719,6 +5059,71 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "040ef660-5eba-434d-9e60-5d6630d25e90")
+		(property "Reference" "#PWR018"
+			(at 255.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "361bfa13-ce2a-4d17-a340-54228d0a8f08")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR018")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5872,179 +6277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "fcg4:2171750001")
-		(at 219.71 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d2a6dff-41bb-44d2-9ac5-b10f77192e9a")
-		(property "Reference" "J1"
-			(at 240.03 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2171750001"
-			(at 240.03 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "fcg4_fp:2171750001_MOL"
-			(at 219.71 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "900-2171750001CT-ND"
-			(at 219.71 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2171750001/Molex/view-part/?ref=snap"
-			(at 223.52 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (6+18 Dummy) - Power Only 6 Pin Position Surface Mount, Right Angle; Through Hole"
-			(at 220.726 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 219.71 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/2171750001/Molex/view-part/?ref=eda"
-			(at 224.79 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 219.71 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "2171750001"
-			(at 217.424 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 216.154 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "2171750001"
-			(at 219.71 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "B12"
-			(uuid "8d4aec39-195c-4ae9-bcbc-8c05cd56cb81")
-		)
-		(pin "B5"
-			(uuid "8903d645-1064-47e3-a0fc-c6d4892765ef")
-		)
-		(pin "A12"
-			(uuid "c655d8b3-521e-4b3e-a1f3-b3327a1d9011")
-		)
-		(pin "A5"
-			(uuid "08ed0d6e-6f45-418b-b2ba-289d350f5eec")
-		)
-		(pin "B9"
-			(uuid "8db78c60-7491-42fc-b3c8-0ce74b88835d")
-		)
-		(pin "A9"
-			(uuid "2cd2c55f-196c-4994-bc79-7cc1a47f912a")
-		)
-		(instances
-			(project ""
-				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 81.28 45.72 0)
 		(unit 1)
@@ -6108,6 +6340,71 @@
 			(project ""
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "921b3b1b-4bcc-4872-ad94-4ccc13c64a66")
+		(property "Reference" "#PWR017"
+			(at 213.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a3941c7-12cf-4838-b410-40ce96718df0")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6386,6 +6683,279 @@
 		)
 	)
 	(symbol
+		(lib_id "fcg4:USB4105-GF-A-120")
+		(at 247.65 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b68bfc6e-8ad2-473f-8ff0-dd9252f24f45")
+		(property "Reference" "J1"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB4105-GF-A-120"
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fcg4_fp:GCT_USB4105-GF-A-120"
+			(at 248.92 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2073-USB4105-GF-A-120CT-ND"
+			(at 246.126 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4105GFA120/Global+Connector+Technology/view-part/?ref=snap"
+			(at 247.396 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.31mm"
+			(at 245.618 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 245.618 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/USB4105GFA120/Global+Connector+Technology/view-part/?ref=eda"
+			(at 246.38 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 245.618 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B3"
+			(at 245.618 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Global Connector Technology"
+			(at 245.872 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "USB4105GFA120"
+			(at 245.872 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB CONN, 2.0 TYPE C, RCPT, 16POS, SMT; USB Connector Type:USB Type C; USB Standard:USB 2.0; Gender:Receptacle; No. of Positions:16Positions; Connector Mounting:Surface Mount, Through Hole Mount; Orientation:Right Angle RoHS Compliant: Yes"
+			(at 247.396 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Global Connector Technology"
+			(at 245.618 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "SH1"
+			(uuid "4716e1cd-4718-48dd-b119-fd5ae5384e11")
+		)
+		(pin "A1_B12"
+			(uuid "46d02fb1-9571-4eab-9204-e185b7d50257")
+		)
+		(pin "A5"
+			(uuid "ca149ead-b784-4014-9e52-ab6b535f1bd8")
+		)
+		(pin "A6"
+			(uuid "32e91304-67c0-46cb-bdc2-c7ea2f3d55dd")
+		)
+		(pin "A4_B9"
+			(uuid "f302a63a-a5f9-4eca-b6bf-36bcb2996373")
+		)
+		(pin "B6"
+			(uuid "cf5596bc-9e99-40ab-a0a2-de6fd215bdb9")
+		)
+		(pin "B8"
+			(uuid "288e2da9-3c02-44d5-9e28-4f12d432eef8")
+		)
+		(pin "A7"
+			(uuid "7df7896f-8bc7-4008-8ddd-b3deb45418ae")
+		)
+		(pin "B5"
+			(uuid "15d18109-cc52-4c8c-8efa-c2d36a96187b")
+		)
+		(pin "B7"
+			(uuid "0132bd7f-bcc4-40f4-8c11-1fd9e0437b5e")
+		)
+		(pin "A8"
+			(uuid "9eb86bfb-50b4-4466-9224-4980d4c19892")
+		)
+		(instances
+			(project ""
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6e4dc5e-0e00-4bf0-af40-8e753baeeac7")
+		(property "Reference" "R10"
+			(at 216.408 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 225.552 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a7b066c-b8c3-4f7d-afb6-33fe60e549f7")
+		)
+		(pin "2"
+			(uuid "fee9e257-40bd-4049-9565-7bd22852b6bb")
+		)
+		(instances
+			(project ""
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 57.15 39.37 90)
 		(unit 1)
@@ -6515,6 +7085,73 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f23ff5d4-0fd3-43a4-b278-1dca589a7a63")
+		(property "Reference" "R11"
+			(at 216.408 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 225.806 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53fc7515-717e-494a-9844-870af2c1ed74")
+		)
+		(pin "2"
+			(uuid "4df3dbc2-e340-4b35-92a6-36f27aa33b60")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "R11")
 					(unit 1)
 				)
 			)
