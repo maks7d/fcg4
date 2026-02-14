@@ -1,4 +1,4 @@
-26777987466045795
+26781529579571433
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -106365,6 +106365,13 @@ AP2112K-1.8TRG1
 5
 5
 fcg4_fp
+BEADC1608X95N
+
+
+0
+2
+2
+fcg4_fp
 CONN4_BM04B-SRSS_JST
 
 BM04B-SRSS-TB 
@@ -106378,6 +106385,13 @@ SM04B-SRSS-TB
 0
 6
 6
+fcg4_fp
+CX2016DB25000D0GPSC1
+CX2016DB25000D0GPSC1-2
+Crystal or Oscillator
+0
+4
+4
 fcg4_fp
 GCT_USB4105-GF-A-120
 
