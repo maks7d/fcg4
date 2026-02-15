@@ -802,7 +802,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -820,7 +820,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 1.27 0)
 					(length 2.54)
 					(name "GND"
@@ -838,7 +838,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -11.43 -1.27 0)
 					(length 2.54)
 					(name "SDA"
@@ -856,7 +856,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -11.43 -3.81 0)
 					(length 2.54)
 					(name "SCK"
@@ -874,7 +874,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 11.43 3.81 180)
 					(length 2.54)
 					(name "VDD"
@@ -892,7 +892,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 11.43 1.27 180)
 					(length 2.54)
 					(name "CSB"
@@ -910,7 +910,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 11.43 -1.27 180)
 					(length 2.54)
 					(name "VDDIO"
@@ -928,7 +928,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 11.43 -3.81 180)
 					(length 2.54)
 					(name "SDO"
@@ -2074,7 +2074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 206.502 62.23 90)
 			(effects
 				(font
@@ -2358,7 +2358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.882 62.23 90)
 			(effects
 				(font
@@ -2417,7 +2417,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 107.95 29.464 90)
 			(effects
 				(font
@@ -2425,7 +2425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 30.7848 0)
 			(effects
 				(font
@@ -2627,7 +2627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 233.172 62.23 90)
 			(effects
 				(font
@@ -2694,7 +2694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 37.1348 0)
 			(effects
 				(font
@@ -2763,7 +2763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 250.4948 50.8 0)
 			(effects
 				(font
@@ -2833,7 +2833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.0752 49.53 0)
 			(effects
 				(font
@@ -2901,7 +2901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2026-02-12:SENSOR-SMD_SPL06-001"
+		(property "Footprint" "fcg4_fp:SENSOR-SMD_SPL06-001"
 			(at 222.25 42.164 0)
 			(effects
 				(font
@@ -3230,7 +3230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 244.1448 50.8 0)
 			(effects
 				(font

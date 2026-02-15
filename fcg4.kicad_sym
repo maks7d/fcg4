@@ -3896,7 +3896,7 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "GND"
@@ -3914,7 +3914,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 1.27 0)
 				(length 2.54)
 				(name "GND"
@@ -3932,7 +3932,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -11.43 -1.27 0)
 				(length 2.54)
 				(name "SDA"
@@ -3950,7 +3950,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -11.43 -3.81 0)
 				(length 2.54)
 				(name "SCK"
@@ -3968,7 +3968,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 11.43 3.81 180)
 				(length 2.54)
 				(name "VDD"
@@ -3986,7 +3986,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "CSB"
@@ -4004,7 +4004,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 11.43 -1.27 180)
 				(length 2.54)
 				(name "VDDIO"
@@ -4022,7 +4022,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "SDO"

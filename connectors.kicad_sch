@@ -1780,7 +1780,7 @@
 			)
 		)
 	)
-	(global_label "I2C1_SCL_"
+	(global_label "I2C1_SCL"
 		(shape input)
 		(at 33.02 50.8 180)
 		(fields_autoplaced yes)
@@ -1792,7 +1792,7 @@
 		)
 		(uuid "c5b852b1-38d6-4bb0-932c-ec2a295a8266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.2982 50.8 0)
+			(at 21.2658 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
