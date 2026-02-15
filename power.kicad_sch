@@ -3597,7 +3597,7 @@
 			)
 		)
 	)
-	(global_label "5V_BEC"
+	(global_label "5V5_BEC"
 		(shape input)
 		(at 58.42 148.59 0)
 		(fields_autoplaced yes)
@@ -3609,7 +3609,7 @@
 		)
 		(uuid "9a1ad88a-ce31-41db-8ad3-fe080946d535")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.3599 148.59 0)
+			(at 69.5694 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
