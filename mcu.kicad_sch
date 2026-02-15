@@ -2923,7 +2923,7 @@
 		)
 		(uuid "1f87f5f4-a9ad-4be0-bc60-894057c4924c")
 	)
-	(text "Decoupling for VDD, one per each physical pin"
+	(text "Decoupling for VDD pins, one per each physical pin"
 		(exclude_from_sim no)
 		(at 241.3 16.764 0)
 		(effects
