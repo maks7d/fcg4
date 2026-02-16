@@ -1421,7 +1421,7 @@
 		)
 		(uuid "b69fe10f-8a9b-4f76-aad3-e1708ebd3f10")
 	)
-	(text "TODO : Vérifier valeurs resistances en fonction de la perte de la diode\n"
+	(text "TODO : Comprendre vraiment comment cela fonctionne"
 		(exclude_from_sim no)
 		(at 69.596 128.778 0)
 		(effects
@@ -3362,6 +3362,16 @@
 			(justify left bottom)
 		)
 		(uuid "41ee16d0-c2f2-48af-b786-db31a8268571")
+	)
+	(label "VOUT"
+		(at 234.95 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "507bcee3-7a22-4923-bea0-c5689b33fe68")
 	)
 	(label "BST_9V"
 		(at 184.15 97.79 0)
