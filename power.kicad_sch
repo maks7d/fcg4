@@ -430,198 +430,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fcg4:1N5819HW-7-F"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 1.016 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "1N5819HW-7-F"
-				(at 1.016 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOD3716X145M"
-				(at 11.43 -97.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
-				(at 11.43 -197.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode Schottky 1A 40V SOD123 Diodes Inc 1N5819HW-7-F, SMT Schottky Diode, 40V 1A, 2-Pin SOD-123"
-				(at -0.254 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 11.43 -397.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "621-1N5819HW-F"
-				(at 11.43 -497.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D"
-				(at 11.43 -597.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 11.43 -697.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "1N5819HW-7-F"
-				(at 11.43 -797.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "1N5819HW-7-F_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "fcg4:AP2112K-1.8TRG1"
 			(pin_names
 				(offset 0.254)
@@ -1029,6 +837,236 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "fcg4:MAX40200ANS_T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 8.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MAX40200ANS_T"
+				(at -12.7 -11.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "fcg4_fp:BGA4N35P2X2_72X72X50N"
+				(at -0.254 25.908 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "MAX40200ANS+TCT-ND"
+				(at 1.524 20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Maxim Integrated Products"
+				(at -1.27 28.702 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "OR Controller Source Selector Switch P-Channel 1:1 4-WLP (0.73x0.73)"
+				(at 0.762 15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "WLP-4 Maxim"
+				(at -1.016 33.274 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at -0.762 30.988 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=snap"
+				(at -2.54 18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MAX40200ANS+T"
+				(at 1.016 23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Unavailable"
+				(at -1.016 36.576 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=eda"
+				(at 0.254 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MAX40200ANS_T_0_0"
+				(rectangle
+					(start -5.08 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "fcg4:MP9943AGQ-Z"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1421,7 +1459,7 @@
 		)
 		(uuid "b69fe10f-8a9b-4f76-aad3-e1708ebd3f10")
 	)
-	(text "TODO : Comprendre vraiment comment cela fonctionne"
+	(text "TODO : Comprendre vraiment comment cela fonctionne\nRecalculer valeurs avec nouvelles diodes idéales"
 		(exclude_from_sim no)
 		(at 69.596 128.778 0)
 		(effects
@@ -1472,12 +1510,6 @@
 		(uuid "0caffecf-a284-4014-beca-0fad592cbee8")
 	)
 	(junction
-		(at 72.39 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14019b07-98c0-4506-a9e6-b5123f74ee99")
-	)
-	(junction
 		(at 212.09 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1518,6 +1550,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2525f5f7-048b-41e5-aa2a-4c0920c8d55f")
+	)
+	(junction
+		(at 72.39 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "271f7094-9d0b-4318-a028-92e362fb5701")
 	)
 	(junction
 		(at 237.49 81.28)
@@ -1715,6 +1753,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 31.75) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1b4e3e-d1b2-4269-a24d-d8f049ca85d8")
+	)
+	(wire
+		(pts
 			(xy 195.58 46.99) (xy 195.58 45.72)
 		)
 		(stroke
@@ -1765,16 +1813,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 34.29) (xy 72.39 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6a3f52-b221-43c3-bbc4-d496ad79f949")
-	)
-	(wire
-		(pts
 			(xy 105.41 82.55) (xy 105.41 80.01)
 		)
 		(stroke
@@ -1815,16 +1853,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 72.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1111e582-776a-47f4-b28a-4f3a6206827f")
-	)
-	(wire
-		(pts
 			(xy 139.7 148.59) (xy 138.43 148.59)
 		)
 		(stroke
@@ -1845,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 34.29) (xy 54.61 34.29)
+			(xy 60.96 20.32) (xy 59.69 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1882,16 +1910,6 @@
 			(type default)
 		)
 		(uuid "18ac99b7-0d52-406b-a39d-2f07aec98432")
-	)
-	(wire
-		(pts
-			(xy 35.56 38.1) (xy 38.1 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190832b6-ff99-401b-bdd1-23bab03c5a58")
 	)
 	(wire
 		(pts
@@ -2035,16 +2053,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 38.1) (xy 72.39 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "344338de-1bd6-45f3-bd33-985ef8f60936")
-	)
-	(wire
-		(pts
 			(xy 44.45 148.59) (xy 45.72 148.59)
 		)
 		(stroke
@@ -2145,6 +2153,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 41.91) (xy 38.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bc755a-870d-439e-8e0b-2f04fe77e9f1")
+	)
+	(wire
+		(pts
+			(xy 72.39 52.07) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4396276b-ed14-40a0-9768-032db72b03d8")
+	)
+	(wire
+		(pts
 			(xy 64.77 106.68) (xy 80.01 106.68)
 		)
 		(stroke
@@ -2185,6 +2213,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 25.4) (xy 69.85 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afe9205-c6ee-47f7-aa00-601a8d304895")
+	)
+	(wire
+		(pts
+			(xy 59.69 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bae5e5f-7746-43be-a8ff-c3638d25660a")
+	)
+	(wire
+		(pts
 			(xy 237.49 91.44) (xy 237.49 92.71)
 		)
 		(stroke
@@ -2202,6 +2250,16 @@
 			(type default)
 		)
 		(uuid "4de78ed6-4fdc-4294-8db2-bc45359ff98d")
+	)
+	(wire
+		(pts
+			(xy 60.96 48.26) (xy 60.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e313ab0-20b2-4460-bff4-5b0b6f270959")
 	)
 	(wire
 		(pts
@@ -2242,6 +2300,16 @@
 			(type default)
 		)
 		(uuid "563dfd09-8fbc-460c-b215-f2c4b528c794")
+	)
+	(wire
+		(pts
+			(xy 59.69 36.83) (xy 60.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b094d85-0661-4a3e-8107-8053b789c01d")
 	)
 	(wire
 		(pts
@@ -2405,6 +2473,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 25.4) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755541dc-01ef-4afb-8f87-257696ae3921")
+	)
+	(wire
+		(pts
 			(xy 99.06 91.44) (xy 99.06 90.17)
 		)
 		(stroke
@@ -2432,16 +2510,6 @@
 			(type default)
 		)
 		(uuid "7c91ed79-6965-43be-b226-28e2efeecb27")
-	)
-	(wire
-		(pts
-			(xy 53.34 38.1) (xy 72.39 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dd20c1c-d5c4-406a-88d4-006caa2c09f6")
 	)
 	(wire
 		(pts
@@ -2502,6 +2570,16 @@
 			(type default)
 		)
 		(uuid "833ac15b-c0f0-4659-919e-d30eb0a37e5d")
+	)
+	(wire
+		(pts
+			(xy 72.39 34.29) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f02b47-486a-4c63-bca5-ece105fa9581")
 	)
 	(wire
 		(pts
@@ -2913,6 +2991,16 @@
 		)
 		(uuid "b5ea3b2c-73bf-42d3-9b4c-87c13044d4cc")
 	)
+	(wire
+		(pts
+			(xy 60.96 46.99) (xy 59.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65fcb08-b8c9-4cd5-aefe-781d7ba74020")
+	)
 	(polyline
 		(pts
 			(xy 172.72 116.84) (xy 172.72 198.12)
@@ -2932,6 +3020,16 @@
 			(type default)
 		)
 		(uuid "b728fc9a-7498-4bc4-a1b0-6d135560466e")
+	)
+	(wire
+		(pts
+			(xy 60.96 30.48) (xy 59.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7318c43-221b-46a5-be44-7ddbf35f406d")
 	)
 	(wire
 		(pts
@@ -2992,6 +3090,26 @@
 			(type default)
 		)
 		(uuid "bf811b8b-7dea-4c67-baa7-7b4803efd3eb")
+	)
+	(wire
+		(pts
+			(xy 36.83 25.4) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9abb0b-d121-4825-87fa-7f5bb40ce41c")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01f0c7c-6873-421b-8391-33607658a6f2")
 	)
 	(wire
 		(pts
@@ -3565,22 +3683,22 @@
 	)
 	(global_label "5V5_BEC"
 		(shape input)
-		(at 52.07 34.29 180)
+		(at 60.96 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5b26a85b-704e-45cf-b7a4-93a3cda1bb1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.9206 34.29 0)
+			(at 72.1094 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3603,6 +3721,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 36.83 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96f78140-c7ad-454b-86d5-361d9c1a55f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9743 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3669,6 +3809,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 36.83 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb6070ef-db11-4c06-87a3-596de1a3536c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9743 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3785,22 +3947,22 @@
 	)
 	(global_label "5V_USB"
 		(shape input)
-		(at 35.56 38.1 180)
+		(at 60.96 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fe6583e7-08b1-4743-98a7-9b03f9e85c9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4991 38.1 0)
+			(at 71.0209 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3938,6 +4100,71 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06c7f749-9ceb-49ef-8d77-b446470b72a5")
+		(property "Reference" "#PWR038"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cea24ab-fa9a-434c-9132-4ef98f699d57")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4562,6 +4789,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a837d1b-77c2-45b8-9153-5abef29a6fc5")
+		(property "Reference" "#PWR032"
+			(at 60.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f08afb57-8938-4acc-86a5-c1addf4e22b0")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 143.51 0)
 		(unit 1)
@@ -4963,6 +5255,170 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fcg4:MAX40200ANS_T")
+		(at 48.26 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3317be92-cfa2-47a4-b9a5-15c13d853dc6")
+		(property "Reference" "U10"
+			(at 48.26 14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX40200ANS_T"
+			(at 48.514 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fcg4_fp:BGA4N35P2X2_72X72X50N"
+			(at 48.006 -0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "MAX40200ANS+TCT-ND"
+			(at 49.784 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Maxim Integrated Products"
+			(at 46.99 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "OR Controller Source Selector Switch P-Channel 1:1 4-WLP (0.73x0.73)"
+			(at 49.022 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WLP-4 Maxim"
+			(at 47.244 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 47.498 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=snap"
+			(at 45.72 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MAX40200ANS+T"
+			(at 49.276 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Unavailable"
+			(at 47.244 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=eda"
+			(at 48.514 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "9787ead6-2480-4540-979e-29865c548905")
+		)
+		(pin "B1"
+			(uuid "f2e23645-46c5-4bb3-a1a2-ca752272ba84")
+		)
+		(pin "B2"
+			(uuid "3b0b58e7-d21b-426b-b031-0698145cf637")
+		)
+		(pin "A1"
+			(uuid "fcaff315-47dd-47f3-b9cb-bd244421b3e1")
+		)
+		(instances
+			(project ""
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5595,126 +6051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "fcg4:1N5819HW-7-F")
-		(at 69.85 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60bf096b-5147-4443-a390-271d01980cda")
-		(property "Reference" "D1"
-			(at 62.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819HW-7-F"
-			(at 62.23 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fcg4_fp:SOD3716X145M"
-			(at 58.42 -63.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
-			(at 58.42 -163.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Schottky 1A 40V SOD123 Diodes Inc 1N5819HW-7-F, SMT Schottky Diode, 40V 1A, 2-Pin SOD-123"
-			(at 70.104 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 58.42 -363.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-1N5819HW-F"
-			(at 58.42 -463.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D"
-			(at 58.42 -563.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 58.42 -663.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N5819HW-7-F"
-			(at 58.42 -763.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af1384a2-0868-4028-8723-620729bd88ec")
-		)
-		(pin "2"
-			(uuid "343bed70-5211-41af-80d9-f9acdfc76abb")
-		)
-		(instances
-			(project ""
-				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 242.57 106.68 0)
 		(unit 1)
@@ -6143,125 +6479,6 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fcg4:1N5819HW-7-F")
-		(at 53.34 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77e5ead0-02c8-4413-bc9d-3e457e562877")
-		(property "Reference" "D2"
-			(at 44.45 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819HW-7-F"
-			(at 46.228 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fcg4_fp:SOD3716X145M"
-			(at 41.91 -59.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
-			(at 41.91 -159.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Schottky 1A 40V SOD123 Diodes Inc 1N5819HW-7-F, SMT Schottky Diode, 40V 1A, 2-Pin SOD-123"
-			(at 53.594 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 41.91 -359.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-1N5819HW-F"
-			(at 41.91 -459.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D"
-			(at 41.91 -559.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 41.91 -659.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N5819HW-7-F"
-			(at 41.91 -759.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bbb3949-eba9-4f85-94d4-a734a79c7133")
-		)
-		(pin "2"
-			(uuid "b72ddb77-a17f-4121-bc38-a2f59e3b9adc")
-		)
-		(instances
-			(project "fcg4"
-				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7641,7 +7858,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 43.18 0)
+		(at 72.39 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7649,7 +7866,7 @@
 		(dnp no)
 		(uuid "d66fbbcd-ff06-45ab-ac81-bfb9b6c0f1f7")
 		(property "Reference" "C2"
-			(at 67.31 41.148 0)
+			(at 67.31 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7875,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 66.802 44.958 0)
+			(at 66.802 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +7884,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 73.3552 46.99 0)
+			(at 73.3552 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +7893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 43.18 0)
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +7902,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 43.18 0)
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,17 +7926,180 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 48.26 0)
+		(lib_id "fcg4:MAX40200ANS_T")
+		(at 48.26 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "dac1459d-443d-4594-a47f-a2652ffcd55c")
+		(property "Reference" "U11"
+			(at 40.132 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX40200ANS_T"
+			(at 43.18 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fcg4_fp:BGA4N35P2X2_72X72X50N"
+			(at 48.006 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "MAX40200ANS+TCT-ND"
+			(at 49.784 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Maxim Integrated Products"
+			(at 46.99 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "OR Controller Source Selector Switch P-Channel 1:1 4-WLP (0.73x0.73)"
+			(at 49.022 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WLP-4 Maxim"
+			(at 47.244 8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 47.498 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=snap"
+			(at 45.72 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MAX40200ANS+T"
+			(at 49.276 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Unavailable"
+			(at 47.244 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=eda"
+			(at 48.514 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "633d9aed-7793-4510-aecd-a7db1be9cfb7")
+		)
+		(pin "B1"
+			(uuid "9912742c-15ac-455a-ace0-b25a5b8b7702")
+		)
+		(pin "B2"
+			(uuid "9fbe68f8-0848-4d8f-af1a-13b14d888b4a")
+		)
+		(pin "A1"
+			(uuid "9ee05aa3-f803-4350-807b-a12ccbcfff9d")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "de1a8e67-9149-48f9-9f67-630d6540aea0")
 		(property "Reference" "#PWR013"
-			(at 72.39 54.61 0)
+			(at 72.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +8108,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 53.34 0)
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,7 +8116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 48.26 0)
+			(at 72.39 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +8125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 48.26 0)
+			(at 72.39 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +8134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 48.26 0)
+			(at 72.39 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
