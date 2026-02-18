@@ -333,7 +333,7 @@
 		(uuid "296841f2-69c2-4d36-9c5f-51be6caeeef9")
 	)
 	(embedded_fonts no)
-	(model "/Users/macmax/Downloads/AP2112K-3.3TRG1/AP2112K-3.3TRG1.step"
+	(model "${KIPRJMOD}/3D/AP2112K-3.3TRG1.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -341,7 +341,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -90)
+			(xyz -0 -0 -0)
 		)
 	)
 )
