@@ -1,4 +1,4 @@
-27274841490871140
+27276612912057563
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107953,6 +107953,13 @@ Crystal or Oscillator
 0
 4
 4
+fcg4_fp
+EXB28V_PAN
+
+EXB-28V101JX 
+0
+8
+8
 fcg4_fp
 GCT_USB4105-GF-A-120
 
