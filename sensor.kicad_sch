@@ -2653,7 +2653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "fcg4_fp:SENSOR-SMD_SPL06-001"
+		(property "Footprint" "ProLib_pcs_2026-02-12:SENSOR-SMD_SPL06-001"
 			(at 222.25 42.164 0)
 			(effects
 				(font

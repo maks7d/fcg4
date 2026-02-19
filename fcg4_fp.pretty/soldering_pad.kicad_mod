@@ -7,6 +7,7 @@
 		(at 0 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "5d5fb29f-712f-4892-a457-0d9dad9e6fc7")
 		(effects
 			(font
@@ -18,7 +19,8 @@
 	(property "Value" "soldering_pad"
 		(at 0 4.2 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
+		(hide yes)
 		(uuid "ce7e1063-d42b-4f2e-b03b-6115f33a2dfa")
 		(effects
 			(font
@@ -53,7 +55,31 @@
 			)
 		)
 	)
+	(property "Field4" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d24bc82f-1833-4eb4-bc6f-87dfa20315a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
+	(fp_text user "${NET_NAME(1)}"
+		(at -1.05 -0.83 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "86573f65-0602-4c6c-93ec-1412bdebff41")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)

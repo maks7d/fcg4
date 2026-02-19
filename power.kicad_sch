@@ -7292,7 +7292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fcg4_fp:SON65P300X300X100-8M"
+		(property "Footprint" "SON65P300X300X100-8M"
 			(at 217.17 185.09 0)
 			(effects
 				(font
@@ -8548,7 +8548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fcg4_fp:SON65P300X300X100-8M"
+		(property "Footprint" "SON65P300X300X100-8M"
 			(at 85.09 183.82 0)
 			(effects
 				(font
