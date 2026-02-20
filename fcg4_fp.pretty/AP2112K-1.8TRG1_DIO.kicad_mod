@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "AP2112K-1.8TRG1 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.02 -2.53 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7a3097f0-ed7d-4910-b0f7-43ad345cb89f")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "AP2112K-1.8TRG1_DIO"
-		(at 0 0 0)
+		(at 0.09 4.65 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a0549800-db85-485d-907e-a5495fc6dd96")
@@ -454,57 +454,11 @@
 		(layer "F.Fab")
 		(uuid "3bf0f56d-aca5-431b-afe5-f690d3346061")
 	)
-	(fp_text user "*"
-		(at -1.60725 -2.6518 0)
-		(layer "F.SilkS")
-		(uuid "202c07ef-ef45-4561-963a-81134e0be0a7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.60725 -2.6518 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4af65a95-452b-4676-bafb-0abe86863592")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -0.4699 -1.4732 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "214f71af-741c-4948-8698-feee67b5da8e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at -0.08 2.92 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "df857826-8174-4d25-be04-01acdb36ab6e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -0.4699 -1.4732 0)
-		(layer "F.Fab")
-		(uuid "f56d48bd-7025-43ad-8714-a003341be5ca")
 		(effects
 			(font
 				(size 1 1)

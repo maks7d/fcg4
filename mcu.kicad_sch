@@ -3115,10 +3115,6 @@
 		(at 234.95 106.68)
 		(uuid "caaa14cc-2cd7-4ab5-abae-3037620fddbc")
 	)
-	(no_connect
-		(at 116.84 123.19)
-		(uuid "f78f45df-c398-4f12-9b87-9bc2f244dbbb")
-	)
 	(wire
 		(pts
 			(xy 198.12 110.49) (xy 208.28 110.49)
@@ -3558,6 +3554,16 @@
 			(type default)
 		)
 		(uuid "54a97638-1e78-45c6-b09d-a566742af880")
+	)
+	(wire
+		(pts
+			(xy 116.84 123.19) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bb4933-c8e5-45f2-bc47-73ddcab2006f")
 	)
 	(wire
 		(pts
@@ -5203,28 +5209,6 @@
 			)
 		)
 	)
-	(global_label "PINIO1"
-		(shape input)
-		(at 118.11 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90366000-685b-4661-8dfe-6e958e32030f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.4453 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI1_SDI"
 		(shape input)
 		(at 118.11 102.87 0)
@@ -5238,6 +5222,28 @@
 		(uuid "91c0241a-f370-470a-8bce-a70963a7c57e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.4409 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWCLK-JTCK"
+		(shape input)
+		(at 118.11 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0394c7d-ef85-4296-a6a7-5ebb541020ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.3718 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5297,7 @@
 			)
 		)
 	)
-	(global_label "BEEPER"
+	(global_label "BZ"
 		(shape input)
 		(at 118.11 107.95 0)
 		(fields_autoplaced yes)
@@ -5303,7 +5309,7 @@
 		)
 		(uuid "a7d9384b-e4fe-4c9f-bcbc-b9e376bea7ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.3522 107.95 0)
+			(at 123.5747 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,6 +5359,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO-JTMS"
+		(shape input)
+		(at 118.11 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba4bf4c5-a173-4fa9-a9ae-6deb01e97f1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1299 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
