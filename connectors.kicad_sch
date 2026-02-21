@@ -3300,7 +3300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "5V_BEC"
 			(at 184.912 150.622 0)
 			(effects
 				(font
@@ -3433,7 +3433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PWM1"
 			(at 159.512 130.302 0)
 			(effects
 				(font
@@ -3633,7 +3633,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "SWCLK"
 			(at 224.79 144.0179 0)
 			(effects
 				(font
@@ -3900,7 +3900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "SWDIO"
 			(at 240.03 144.0179 0)
 			(effects
 				(font
@@ -5003,7 +5003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PWM3"
 			(at 181.102 130.302 0)
 			(effects
 				(font
@@ -5203,7 +5203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VDD_MCU"
 			(at 198.882 149.352 0)
 			(effects
 				(font
@@ -5402,7 +5402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PWM4"
 			(at 192.532 130.302 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PWM2"
 			(at 169.672 130.302 0)
 			(effects
 				(font
