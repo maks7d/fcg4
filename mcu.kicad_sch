@@ -5831,7 +5831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "fcg4_fp:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 			(at 83.82 168.91 0)
 			(effects
 				(font
@@ -6513,8 +6513,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 50.8 174.752 90)
+		(property "Value" "BOOT"
+			(at 55.626 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +7395,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "RESET"
 			(at 53.34 68.58 0)
 			(effects
 				(font
