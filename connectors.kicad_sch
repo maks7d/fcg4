@@ -1468,16 +1468,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Refaire footprint de la quadri resistance"
-		(exclude_from_sim no)
-		(at 162.306 58.928 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "28d46d3d-f7bf-4d98-b581-6ed1d4662573")
-	)
 	(text "TEST POINTS FOR DEBUG\n"
 		(exclude_from_sim no)
 		(at 191.516 117.602 0)
