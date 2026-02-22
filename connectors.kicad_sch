@@ -1508,6 +1508,16 @@
 		)
 		(uuid "97f39c34-bdb9-4c71-b372-a385543e5f20")
 	)
+	(text "Vérifier BZ+ / BZ-"
+		(exclude_from_sim no)
+		(at 76.454 38.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c578769d-c484-4f5d-85b6-cceae96896dc")
+	)
 	(text "Serial RX (CRSF/ELRS)"
 		(exclude_from_sim no)
 		(at 32.766 69.596 0)
