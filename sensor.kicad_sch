@@ -1973,7 +1973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1850418.pdf"
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -2098,6 +2098,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C1850418"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK InvenSense"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ICM-42688-P"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2415,7 +2442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C60491.pdf"
 			(at 234.95 63.5 0)
 			(effects
 				(font
@@ -2425,6 +2452,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C60491"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-07100KL"
 			(at 234.95 63.5 0)
 			(effects
 				(font
@@ -2482,7 +2536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C385032.pdf"
 			(at 104.14 38.1 0)
 			(effects
 				(font
@@ -2493,6 +2547,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C385032"
+			(at 104.14 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "muRata"
+			(at 104.14 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R61E225KE11D"
+			(at 104.14 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C91601.pdf"
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -2658,6 +2739,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C91601"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "muRata"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM155R71H103KA55D"
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -2716,7 +2824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SPL06-001/2782076.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2684428.pdf"
 			(at 222.25 62.484 0)
 			(effects
 				(font
@@ -2769,8 +2877,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "普通气压传感器 停产"
+		(property "LCSC Part Name" "C2684428"
 			(at 222.25 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Goertek"
+			(at 222.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SPL06-001"
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
