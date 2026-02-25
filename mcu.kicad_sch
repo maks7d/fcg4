@@ -5815,6 +5815,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 63.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 63.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b9e7d9f-c07f-4804-8fa0-537bfd0f7032")
 		)
@@ -5905,6 +5923,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STM32G473CEU6"
+			(at 99.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 99.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 99.06 125.73 0)
 			(effects
 				(font
@@ -6150,6 +6186,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 36.83 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 36.83 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cf8c5bb-e195-4fc0-86de-471f7e71e847")
 		)
@@ -6246,6 +6300,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d006954-595b-45bb-8298-39557a1aacf0")
 		)
@@ -6334,6 +6406,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61H105KE05D"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 69.85 81.28 0)
 			(effects
 				(font
@@ -6495,6 +6585,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 242.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 242.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -6669,6 +6777,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 177.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 177.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61286fbb-50e5-493b-ba71-3e434c93829d")
 		)
@@ -6731,6 +6857,24 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 58.42 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 58.42 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,6 +6968,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+			(at 50.8 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 50.8 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 50.8 151.13 90)
 			(effects
 				(font
@@ -7126,6 +7288,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef79e349-fb2f-48ae-8038-c8ac346f9a82")
 		)
@@ -7214,6 +7394,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 255.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 255.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 255.27 30.48 0)
 			(effects
 				(font
@@ -7387,6 +7585,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e5a60e3-7092-458e-9b8f-0aee564ed8b1")
 		)
@@ -7478,6 +7694,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -7647,6 +7881,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f7ce89c-21e6-4122-9ae8-ea6495b8dcee")
 		)
@@ -7781,6 +8033,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4dab8fb3-0236-48d0-b45e-1db7d41f3588")
 		)
@@ -7869,6 +8139,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -7973,6 +8261,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e10b3f2-3881-4b3c-bf3a-392990b59720")
 		)
@@ -8059,6 +8365,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+			(at 120.65 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 120.65 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 120.65 132.08 90)
 			(effects
 				(font
@@ -8273,6 +8597,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "SH1"
 			(uuid "4716e1cd-4718-48dd-b119-fd5ae5384e11")
 		)
@@ -8394,6 +8736,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 194.31 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 194.31 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a7b066c-b8c3-4f7d-afb6-33fe60e549f7")
 		)
@@ -8482,6 +8842,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 53.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 53.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 53.34 76.2 90)
 			(effects
 				(font
@@ -8649,6 +9027,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 194.31 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 194.31 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53fc7515-717e-494a-9844-870af2c1ed74")
 		)
@@ -8800,6 +9196,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-07249RL"
+			(at 52.07 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 52.07 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 52.07 100.33 90)
 			(effects
 				(font

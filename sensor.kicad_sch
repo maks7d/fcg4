@@ -2128,6 +2128,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "8b567031-dec5-48db-80a4-ee3aee0d90b2")
 		)
@@ -2250,6 +2268,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 104.14 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 104.14 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 104.14 31.75 90)
 			(effects
 				(font
@@ -2487,6 +2523,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d919f21-2a37-4ab9-824e-d5f03132f988")
 		)
@@ -2573,6 +2627,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61E225KE11D"
+			(at 104.14 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 104.14 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 104.14 38.1 90)
 			(effects
 				(font
@@ -2677,6 +2749,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee74e250-e43e-4db9-a570-f76523164d67")
 		)
@@ -2766,6 +2856,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GCM155R71H103KA55D"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -2896,6 +3004,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SPL06-001"
+			(at 222.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 222.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 222.25 53.34 0)
 			(effects
 				(font
@@ -3208,6 +3334,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 245.11 54.61 0)
 			(effects
 				(font

@@ -3270,6 +3270,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09736e33-7f31-4766-80b2-3d3e5d150911")
 		)
@@ -3328,6 +3346,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 184.15 152.4 0)
 			(effects
 				(font
@@ -3403,6 +3439,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43f652fe-104e-4f4e-8ef3-33b89fe2804f")
 		)
@@ -3461,6 +3515,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 158.75 132.08 0)
 			(effects
 				(font
@@ -3528,6 +3600,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 39.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 39.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 39.37 128.27 0)
 			(effects
 				(font
@@ -3669,6 +3759,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 222.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 222.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c1425da-c4e3-4ece-beb4-f6fdcfcbd458")
 		)
@@ -3728,6 +3836,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 39.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 39.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 39.37 113.03 0)
 			(effects
 				(font
@@ -3869,6 +3995,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 38.1 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 38.1 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e463e9d-aab5-43ff-bf85-398ce4687b33")
 		)
@@ -3936,6 +4080,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bb888c0-fc3e-44f0-8e48-ed1b0f3fa777")
 		)
@@ -3995,6 +4157,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 80.01 74.93 0)
 			(effects
 				(font
@@ -4202,6 +4382,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "152c6273-ef2c-40e6-8307-06fb9c099ed4")
 		)
@@ -4261,6 +4459,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -4444,6 +4660,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 199.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 199.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4f09650-a36b-47b9-9c16-09be462af905")
 		)
@@ -4532,6 +4766,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "197e8c09-e0e3-44ac-8819-a318e179d5ca")
 		)
@@ -4599,6 +4851,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fba66ea6-b997-483a-b710-015042699ff4")
 		)
@@ -4658,6 +4928,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 38.1 40.64 0)
 			(effects
 				(font
@@ -4799,6 +5087,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a24da738-4d34-4274-b298-4902fd6e8233")
 		)
@@ -4858,6 +5164,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 35.56 88.9 0)
 			(effects
 				(font
@@ -4933,6 +5257,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 39.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 39.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "378da4ab-05d7-45ea-9d2a-73b5298c141d")
 		)
@@ -5000,6 +5342,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "151c403f-3ed1-4ac6-a774-5b4db1ee508f")
 		)
@@ -5058,6 +5418,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 180.34 132.08 0)
 			(effects
 				(font
@@ -5133,6 +5511,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 78.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 78.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5a014ec-6e45-413b-85a8-08e8c40e6873")
 		)
@@ -5192,6 +5588,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 78.74 44.45 0)
 			(effects
 				(font
@@ -5266,6 +5680,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 198.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 198.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71c80197-9fd2-468c-87aa-19dd46cad754")
 		)
@@ -5325,6 +5757,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -5465,6 +5915,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 191.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 191.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34071200-bda2-474d-a23e-ce7e2a388570")
 		)
@@ -5551,6 +6019,24 @@
 			)
 		)
 		(property "Mouser Part Number" "667-EXB-28V101JX "
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -5647,6 +6133,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03287828-28df-4dd4-a17e-fd66090a377d")
 		)
@@ -5706,6 +6210,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 39.37 133.35 0)
 			(effects
 				(font
@@ -5780,6 +6302,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37f6373b-7d67-48fc-b19d-1b72ccdbb6ef")
 		)
@@ -5839,6 +6379,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 38.1 55.88 0)
 			(effects
 				(font

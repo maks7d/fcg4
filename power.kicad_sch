@@ -430,6 +430,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MAX40203AUK+T_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.588 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MAX40203AUK+T"
+				(at -5.588 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "fcg4_fp:SOT95P280X145-5M"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX40203AUK+T - IDEAL DIODE CURRENT SW, -40 TO 125DEG C"
+				(at 1.778 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "700-MAX40203AUK+T"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40203AUK%2bT?qs=l7cgNqFNU1j1dlDj29Iz0A%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MAX40203AUK+T"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MAX40203AUK+T_1_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "N.C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "fcg4:AP2112K-1.8TRG1"
 			(pin_names
 				(offset 0.254)
@@ -837,43 +1043,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fcg4:MAX40200ANS_T"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "fcg4:MAX40203AUK+T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 8.62 0)
+			(property "Reference" "D"
+				(at -5.588 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Value" "MAX40200ANS_T"
-				(at -12.7 -11.62 0)
+			(property "Value" "MAX40203AUK+T"
+				(at -5.588 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "fcg4_fp:BGA4N35P2X2_72X72X50N"
-				(at -0.254 25.908 0)
+			(property "Footprint" "fcg4_fp:SOT95P280X145-5M"
+				(at 21.59 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX40203AUK+T - IDEAL DIODE CURRENT SW, -40 TO 125DEG C"
+				(at 1.778 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -881,115 +1094,84 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "DigiKey_Part_Number" "MAX40200ANS+TCT-ND"
-				(at 1.524 20.828 0)
+			(property "Mouser Part Number" "700-MAX40203AUK+T"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MF" "Maxim Integrated Products"
-				(at -1.27 28.702 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40203AUK%2bT?qs=l7cgNqFNU1j1dlDj29Iz0A%3D%3D"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description_1" "OR Controller Source Selector Switch P-Channel 1:1 4-WLP (0.73x0.73)"
-				(at 0.762 15.494 0)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 21.59 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Package" "WLP-4 Maxim"
-				(at -1.016 33.274 0)
+			(property "Manufacturer_Part_Number" "MAX40203AUK+T"
+				(at 21.59 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at -0.762 30.988 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=snap"
-				(at -2.54 18.796 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MAX40200ANS+T"
-				(at 1.016 23.368 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Unavailable"
-				(at -1.016 36.576 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=eda"
-				(at 0.254 11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "MAX40200ANS_T_0_0"
+			(symbol "MAX40203AUK+T_1_1"
 				(rectangle
-					(start -5.08 7.62)
-					(end 6.35 -7.62)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
-						(width 0.41)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin input line
@@ -998,68 +1180,68 @@
 					(name "EN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B1"
+					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 11.43 5.08 180)
+					(at -10.16 -2.54 0)
 					(length 5.08)
-					(name "VDD"
+					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A1"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "N.C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 11.43 0 180)
+					(at 10.16 0 180)
 					(length 5.08)
 					(name "OUT"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A2"
+					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1552,6 +1734,12 @@
 		(uuid "18cb11b7-1061-4d3b-9b06-c6c379e9ccaa")
 	)
 	(junction
+		(at 38.1 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19342f3f-6583-4b2f-9ed6-f6c397e863fb")
+	)
+	(junction
 		(at 138.43 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1580,12 +1768,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2525f5f7-048b-41e5-aa2a-4c0920c8d55f")
-	)
-	(junction
-		(at 72.39 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "271f7094-9d0b-4318-a028-92e362fb5701")
 	)
 	(junction
 		(at 237.49 81.28)
@@ -1690,6 +1872,18 @@
 		(uuid "ac5a7a29-9a5a-4b64-80af-4cdb399ddbe1")
 	)
 	(junction
+		(at 64.77 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b805c745-ed63-4d29-b754-e7920dd2aefd")
+	)
+	(junction
+		(at 38.1 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1012ad8-8eed-4afd-9b6b-96b3b4ddbf46")
+	)
+	(junction
 		(at 231.14 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1726,6 +1920,10 @@
 		(uuid "e7d9ce62-88fd-49b8-9499-8c3900b766ea")
 	)
 	(no_connect
+		(at 59.69 44.45)
+		(uuid "14490ea2-adf1-4b68-89a1-c22bcc26393b")
+	)
+	(no_connect
 		(at 233.68 38.1)
 		(uuid "3b3648f6-f8cd-4a3a-8807-17b40d041239")
 	)
@@ -1736,6 +1934,10 @@
 	(no_connect
 		(at 100.33 38.1)
 		(uuid "c3354131-b1f8-41e1-9e8a-069e62243aae")
+	)
+	(no_connect
+		(at 59.69 26.67)
+		(uuid "c8e5f9e4-cd51-42df-95c4-e2abd4dfc400")
 	)
 	(wire
 		(pts
@@ -1779,6 +1981,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 44.45) (xy 38.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8998a1-a92d-4a5f-b8c9-dfc3febc1504")
+	)
+	(wire
+		(pts
 			(xy 223.52 138.43) (xy 223.52 139.7)
 		)
 		(stroke
@@ -1789,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 31.75) (xy 60.96 30.48)
+			(xy 38.1 31.75) (xy 38.1 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +2121,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 20.32) (xy 59.69 20.32)
+			(xy 36.83 26.67) (xy 38.1 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2089,6 +2301,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 46.99) (xy 38.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d7d85d-f9f8-4a77-bfdb-a3c4ca4f0f41")
+	)
+	(wire
+		(pts
 			(xy 44.45 148.59) (xy 45.72 148.59)
 		)
 		(stroke
@@ -2106,6 +2328,16 @@
 			(type default)
 		)
 		(uuid "3529f40d-d43a-46c1-ad47-3b25cb2c478e")
+	)
+	(wire
+		(pts
+			(xy 38.1 29.21) (xy 38.1 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375ee6bd-7371-45ac-b6d3-df2d29aeaf34")
 	)
 	(wire
 		(pts
@@ -2179,6 +2411,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 29.21) (xy 64.77 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4008b4bf-ab4f-49f6-a6e2-14e45af6d6c9")
+	)
+	(wire
+		(pts
 			(xy 55.88 96.52) (xy 58.42 96.52)
 		)
 		(stroke
@@ -2186,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "40fc8d02-1526-4367-b489-24bbf660f740")
-	)
-	(wire
-		(pts
-			(xy 36.83 41.91) (xy 38.1 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42bc755a-870d-439e-8e0b-2f04fe77e9f1")
 	)
 	(wire
 		(pts
@@ -2249,26 +2481,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 25.4) (xy 69.85 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afe9205-c6ee-47f7-aa00-601a8d304895")
-	)
-	(wire
-		(pts
-			(xy 59.69 41.91) (xy 72.39 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bae5e5f-7746-43be-a8ff-c3638d25660a")
-	)
-	(wire
-		(pts
 			(xy 237.49 91.44) (xy 237.49 92.71)
 		)
 		(stroke
@@ -2289,13 +2501,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 48.26) (xy 60.96 46.99)
+			(xy 38.1 26.67) (xy 39.37 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e313ab0-20b2-4460-bff4-5b0b6f270959")
+		(uuid "4e0256a4-69e9-4b77-a50f-0ca26b3bdffe")
 	)
 	(wire
 		(pts
@@ -2339,13 +2551,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 36.83) (xy 60.96 36.83)
+			(xy 38.1 49.53) (xy 38.1 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b094d85-0661-4a3e-8107-8053b789c01d")
+		(uuid "5682f76a-ba45-4a2e-9755-6f4a317eb051")
 	)
 	(wire
 		(pts
@@ -2419,6 +2631,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 46.99) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641135a9-775b-4ac8-a633-5385b384f33b")
+	)
+	(wire
+		(pts
 			(xy 243.84 91.44) (xy 243.84 92.71)
 		)
 		(stroke
@@ -2426,6 +2648,16 @@
 			(type default)
 		)
 		(uuid "645d47de-aab4-4986-b5a7-ada64726adda")
+	)
+	(wire
+		(pts
+			(xy 64.77 29.21) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a4ef6a-182d-4bca-b952-a206e1900a1a")
 	)
 	(wire
 		(pts
@@ -2519,16 +2751,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 25.4) (xy 69.85 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "755541dc-01ef-4afb-8f87-257696ae3921")
-	)
-	(wire
-		(pts
 			(xy 99.06 91.44) (xy 99.06 90.17)
 		)
 		(stroke
@@ -2576,6 +2798,16 @@
 			(type default)
 		)
 		(uuid "8035b18b-78c2-4062-a6d4-263074f78fde")
+	)
+	(wire
+		(pts
+			(xy 39.37 29.21) (xy 38.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a7f338-eedb-4215-8001-696e114d8a86")
 	)
 	(wire
 		(pts
@@ -2629,16 +2861,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 34.29) (xy 72.39 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86f02b47-486a-4c63-bca5-ece105fa9581")
-	)
-	(wire
-		(pts
 			(xy 91.44 77.47) (xy 67.31 77.47)
 		)
 		(stroke
@@ -2676,16 +2898,6 @@
 			(type default)
 		)
 		(uuid "8bce97ec-d30d-482f-86a6-98158c6b7573")
-	)
-	(wire
-		(pts
-			(xy 69.85 34.29) (xy 72.39 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a87567-4a33-4f88-b406-33b7f7f13986")
 	)
 	(wire
 		(pts
@@ -2746,6 +2958,16 @@
 			(type default)
 		)
 		(uuid "96bee3f5-2a6e-40ba-9d4d-9424c18c04d6")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 72.39 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97efcdda-9a34-4170-88c4-1c025e1f75e8")
 	)
 	(wire
 		(pts
@@ -2849,6 +3071,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 46.99) (xy 38.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55bef03-897e-46f4-93ff-3b04190bd1cf")
+	)
+	(wire
+		(pts
 			(xy 135.89 92.71) (xy 135.89 91.44)
 		)
 		(stroke
@@ -2886,6 +3118,16 @@
 			(type default)
 		)
 		(uuid "a7ac4282-95b1-49cb-9259-044fc56d74ef")
+	)
+	(wire
+		(pts
+			(xy 38.1 44.45) (xy 39.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90641b2-3ad5-4d3b-8700-99d4ace419a0")
 	)
 	(wire
 		(pts
@@ -3037,16 +3279,6 @@
 		)
 		(uuid "b5ea3b2c-73bf-42d3-9b4c-87c13044d4cc")
 	)
-	(wire
-		(pts
-			(xy 60.96 46.99) (xy 59.69 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65fcb08-b8c9-4cd5-aefe-781d7ba74020")
-	)
 	(polyline
 		(pts
 			(xy 172.72 116.84) (xy 172.72 198.12)
@@ -3066,16 +3298,6 @@
 			(type default)
 		)
 		(uuid "b728fc9a-7498-4bc4-a1b0-6d135560466e")
-	)
-	(wire
-		(pts
-			(xy 60.96 30.48) (xy 59.69 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7318c43-221b-46a5-be44-7ddbf35f406d")
 	)
 	(wire
 		(pts
@@ -3139,17 +3361,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 25.4) (xy 38.1 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf9abb0b-d121-4825-87fa-7f5bb40ce41c")
-	)
-	(wire
-		(pts
-			(xy 72.39 43.18) (xy 72.39 41.91)
+			(xy 72.39 34.29) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3256,6 +3468,16 @@
 			(type default)
 		)
 		(uuid "cdf1eb4a-3b3b-49c8-a2d9-09fef3ecd76e")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 39.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0317827-7042-4c89-972f-c1a2a1c70be4")
 	)
 	(wire
 		(pts
@@ -3409,6 +3631,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 46.99) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ed7a82-446b-4d59-aa7e-6b0ac3ff232d")
+	)
+	(wire
+		(pts
 			(xy 212.09 138.43) (xy 223.52 138.43)
 		)
 		(stroke
@@ -3436,6 +3668,16 @@
 			(type default)
 		)
 		(uuid "fc3ce523-4339-44a7-81bb-7823c7ec91b3")
+	)
+	(wire
+		(pts
+			(xy 38.1 31.75) (xy 39.37 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6036c6-2051-4672-8de0-b241bca3a1dd")
 	)
 	(wire
 		(pts
@@ -3719,22 +3961,22 @@
 	)
 	(global_label "5V5_BEC"
 		(shape input)
-		(at 60.96 20.32 0)
+		(at 36.83 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5b26a85b-704e-45cf-b7a4-93a3cda1bb1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.1094 20.32 0)
+			(at 25.6806 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3761,9 +4003,9 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "5V_USB"
 		(shape input)
-		(at 36.83 25.4 180)
+		(at 36.83 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3771,9 +4013,9 @@
 			)
 			(justify right)
 		)
-		(uuid "96f78140-c7ad-454b-86d5-361d9c1a55f4")
+		(uuid "96f0aa30-5780-4351-8264-4608b58ca7c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9743 25.4 0)
+			(at 26.7691 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,28 +4087,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape input)
-		(at 36.83 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb6070ef-db11-4c06-87a3-596de1a3536c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9743 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4003,28 +4223,6 @@
 			)
 		)
 	)
-	(global_label "5V_USB"
-		(shape input)
-		(at 60.96 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe6583e7-08b1-4743-98a7-9b03f9e85c9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.0209 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:C")
 		(at 107.95 39.37 0)
@@ -4098,6 +4296,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61H105KE05D"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 107.95 39.37 0)
 			(effects
 				(font
@@ -4202,6 +4418,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 242.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 242.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2597f30c-85d4-4d69-8e30-7135ff8f4464")
 		)
@@ -4219,7 +4453,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 31.75 0)
+		(at 38.1 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4227,7 +4461,7 @@
 		(dnp no)
 		(uuid "06c7f749-9ceb-49ef-8d77-b446470b72a5")
 		(property "Reference" "#PWR038"
-			(at 60.96 38.1 0)
+			(at 38.1 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 35.56 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 31.75 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 31.75 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 31.75 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,6 +4656,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-077K68L"
+			(at 45.72 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 45.72 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 45.72 153.67 0)
 			(effects
 				(font
@@ -4592,6 +4844,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f246f79a-6bee-4bff-988d-f66cea898d6a")
 		)
@@ -4689,6 +4959,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4a25b50f-3431-4cc8-958a-f32121aa4118")
 		)
@@ -4699,6 +4987,162 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fcg4:MAX40203AUK+T")
+		(at 49.53 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c92d101-bbc0-49c5-969e-e7d4f1469e63")
+		(property "Reference" "D2"
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX40203AUK+T"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fcg4_fp:SOT95P280X145-5M"
+			(at 71.12 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2653639.pdf"
+			(at 71.12 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX40203AUK+T - IDEAL DIODE CURRENT SW, -40 TO 125DEG C"
+			(at 51.308 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 71.12 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "700-MAX40203AUK+T"
+			(at 71.12 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40203AUK%2bT?qs=l7cgNqFNU1j1dlDj29Iz0A%3D%3D"
+			(at 71.12 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 71.12 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX40203AUK+T"
+			(at 71.12 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C2653639"
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cfb724b-f3a6-4f23-9ddd-87ccd08e8bc4")
+		)
+		(pin "2"
+			(uuid "dd1573e3-2bf2-47cf-a69e-21832353b623")
+		)
+		(pin "3"
+			(uuid "ae611d2e-f455-4cbd-abc2-366c4268d2f5")
+		)
+		(pin "4"
+			(uuid "eeb7aa98-db9a-4503-8ff5-884aa15c0fe2")
+		)
+		(pin "5"
+			(uuid "8d63c6af-60a3-4255-9bbb-9382a6718e4d")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4778,6 +5222,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-073K92L"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 96.52 153.67 0)
 			(effects
 				(font
@@ -4883,6 +5345,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 189.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 189.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf7ac492-94b6-4537-97e8-572f87e8f31a")
 		)
@@ -4970,6 +5450,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF4122TCE"
+			(at 101.6 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 101.6 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 101.6 148.59 90)
 			(effects
 				(font
@@ -5074,6 +5572,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 248.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 248.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c19b249-4411-4b92-8b31-76cc9b5a5d0b")
 		)
@@ -5084,71 +5600,6 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a837d1b-77c2-45b8-9153-5abef29a6fc5")
-		(property "Reference" "#PWR032"
-			(at 60.96 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f08afb57-8938-4acc-86a5-c1addf4e22b0")
-		)
-		(instances
-			(project "fcg4"
-				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5228,6 +5679,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM31CR61E476ME44L"
+			(at 223.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 223.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 223.52 143.51 0)
 			(effects
 				(font
@@ -5324,6 +5793,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61H105KE05D"
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 111.76 86.36 0)
 			(effects
 				(font
@@ -5559,6 +6046,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe031d92-c851-4893-a3b0-8fd272da6664")
 		)
@@ -5654,6 +6159,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 40.64 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 40.64 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22726cd3-76cc-4c53-a2e1-0c5a1bbe035a")
 		)
@@ -5664,197 +6187,6 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fcg4:MAX40200ANS_T")
-		(at 48.26 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3317be92-cfa2-47a4-b9a5-15c13d853dc6")
-		(property "Reference" "U10"
-			(at 48.26 14.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX40200ANS_T"
-			(at 48.514 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fcg4_fp:BGA4N35P2X2_72X72X50N"
-			(at 48.006 -0.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/MAX40200/datasheet"
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "MAX40200ANS+TCT-ND"
-			(at 49.784 4.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Maxim Integrated Products"
-			(at 46.99 -3.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "OR Controller Source Selector Switch P-Channel 1:1 4-WLP (0.73x0.73)"
-			(at 49.022 9.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "WLP-4 Maxim"
-			(at 47.244 -7.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 47.498 -5.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=snap"
-			(at 45.72 6.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MAX40200ANS+T"
-			(at 49.276 2.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Unavailable"
-			(at 47.244 -11.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=eda"
-			(at 48.514 13.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices / Maxim Integrated"
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAX40200ANS+T"
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-MAX40200ANS+T "
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "9787ead6-2480-4540-979e-29865c548905")
-		)
-		(pin "B1"
-			(uuid "f2e23645-46c5-4bb3-a1a2-ca752272ba84")
-		)
-		(pin "B2"
-			(uuid "3b0b58e7-d21b-426b-b031-0698145cf637")
-		)
-		(pin "A1"
-			(uuid "fcaff315-47dd-47f3-b9cb-bd244421b3e1")
-		)
-		(instances
-			(project ""
-				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -6007,6 +6339,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af17e3de-4fc9-46c3-83de-efe0c061a7d9")
 		)
@@ -6096,6 +6446,24 @@
 			)
 		)
 		(property "Mouser Part Number" "621-AP2112K-1.8TRG1"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 193.04 38.1 0)
 			(effects
 				(font
@@ -6209,6 +6577,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 60.96 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 60.96 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "740dbc67-d98b-476a-9d5b-f1b21f9a960b")
 		)
@@ -6298,6 +6684,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM31CR61E476ME44L"
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 212.09 143.51 0)
 			(effects
 				(font
@@ -6467,6 +6871,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 193.04 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 193.04 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ec70144-24f1-4fa2-9513-684c76427bdf")
 		)
@@ -6564,6 +6986,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a41910d-8ffd-48ac-b89f-ed4ea7164e3d")
 		)
@@ -6651,6 +7091,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF4122TCE"
+			(at 50.8 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 50.8 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 50.8 148.59 90)
 			(effects
 				(font
@@ -6976,6 +7434,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 87.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 87.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89b4fb53-a340-4355-baf8-5000b1b7a88d")
 		)
@@ -7070,6 +7546,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61H105KE05D"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 243.84 87.63 0)
 			(effects
 				(font
@@ -7174,6 +7668,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "118e8ec0-e8da-42ae-b2a9-d5a5cad1d346")
 		)
@@ -7262,6 +7774,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 167.64 97.79 0)
 			(effects
 				(font
@@ -7424,6 +7954,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-071ML"
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -7657,6 +8205,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 232.41 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 232.41 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbf1b863-c4d2-420c-a295-01b076239dff")
 		)
@@ -7746,6 +8312,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61H105KE05D"
+			(at 195.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 195.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 195.58 40.64 0)
 			(effects
 				(font
@@ -7848,6 +8432,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 215.9 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 215.9 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cbae4b96-3be5-4bbf-a103-4f34a74a8af1")
 		)
@@ -7937,6 +8539,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+			(at 138.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 138.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 138.43 156.21 0)
 			(effects
 				(font
@@ -8107,6 +8727,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6cd33c4b-8ea3-4334-b013-4e01df5a08de")
 		)
@@ -8224,6 +8862,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8408,6 +9064,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 138.43 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 138.43 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c30f7666-2219-404f-b924-c6f274a30185")
 		)
@@ -8502,6 +9176,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 63.5 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 63.5 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2fd6662e-cd41-40ce-a7ac-c38560ac0ed7")
 		)
@@ -8588,6 +9280,24 @@
 			)
 		)
 		(property "Manufacturer_Name" "XR"
+			(at 100.33 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 100.33 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 100.33 93.98 90)
 			(effects
 				(font
@@ -8692,6 +9402,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 35.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 35.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "362b7b6a-b21a-4228-96d3-0824a2f31b11")
 		)
@@ -8768,6 +9496,163 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MAX40203AUK+T_1")
+		(lib_id "fcg4:MAX40203AUK+T")
+		(at 49.53 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c613e9be-7648-4e27-b742-950364151f6c")
+		(property "Reference" "D1"
+			(at 49.53 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX40203AUK+T"
+			(at 49.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fcg4_fp:SOT95P280X145-5M"
+			(at 71.12 124.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2653639.pdf"
+			(at 71.12 224.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX40203AUK+T - IDEAL DIODE CURRENT SW, -40 TO 125DEG C"
+			(at 51.308 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 71.12 424.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "700-MAX40203AUK+T"
+			(at 71.12 524.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40203AUK%2bT?qs=l7cgNqFNU1j1dlDj29Iz0A%3D%3D"
+			(at 71.12 624.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 71.12 724.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX40203AUK+T"
+			(at 71.12 824.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 49.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C2653639"
+			(at 49.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 49.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2355339-e545-4c03-a944-5328e19c3a11")
+		)
+		(pin "2"
+			(uuid "9d1fb323-17e4-41c9-8c7b-b21df8e9681f")
+		)
+		(pin "3"
+			(uuid "5019449d-44ad-4147-94ea-387b6b2bc060")
+		)
+		(pin "4"
+			(uuid "d82cb436-3aeb-42b2-951e-1004b7ac4d6e")
+		)
+		(pin "5"
+			(uuid "74048e3b-50f1-42ee-a4d5-281d8895adc8")
+		)
+		(instances
+			(project ""
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8852,6 +9737,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 83.82 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 83.82 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "819b0c39-b208-4a56-a451-837f491f16f0")
 		)
@@ -8862,6 +9765,71 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca68fc8c-56b5-4fcd-ba64-cb7890354357")
+		(property "Reference" "#PWR032"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c5e985-d707-4755-8193-47ab94549806")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8948,6 +9916,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f44e564-c04f-413e-ac6d-100f9f4d285e")
 		)
@@ -8958,197 +9944,6 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fcg4:MAX40200ANS_T")
-		(at 48.26 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dac1459d-443d-4594-a47f-a2652ffcd55c")
-		(property "Reference" "U11"
-			(at 40.132 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX40200ANS_T"
-			(at 43.18 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fcg4_fp:BGA4N35P2X2_72X72X50N"
-			(at 48.006 16.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/MAX40200/datasheet"
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "MAX40200ANS+TCT-ND"
-			(at 49.784 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Maxim Integrated Products"
-			(at 46.99 13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "OR Controller Source Selector Switch P-Channel 1:1 4-WLP (0.73x0.73)"
-			(at 49.022 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "WLP-4 Maxim"
-			(at 47.244 8.636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 47.498 10.922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=snap"
-			(at 45.72 23.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MAX40200ANS+T"
-			(at 49.276 18.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Unavailable"
-			(at 47.244 5.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX40200ANS+T/Maxim+Integrated/view-part/?ref=eda"
-			(at 48.514 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices / Maxim Integrated"
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAX40200ANS+T"
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-MAX40200ANS+T "
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "633d9aed-7793-4510-aecd-a7db1be9cfb7")
-		)
-		(pin "B1"
-			(uuid "9912742c-15ac-455a-ace0-b25a5b8b7702")
-		)
-		(pin "B2"
-			(uuid "9fbe68f8-0848-4d8f-af1a-13b14d888b4a")
-		)
-		(pin "A1"
-			(uuid "9ee05aa3-f803-4350-807b-a12ccbcfff9d")
-		)
-		(instances
-			(project "fcg4"
-				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -9298,6 +10093,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5481d27e-cd52-4c42-bf98-6482ed91cefe")
 		)
@@ -9386,6 +10199,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM188C61E226ME01D"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -9556,6 +10387,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a81573e1-d115-4d49-b196-7e73bfaf56b8")
 		)
@@ -9643,6 +10492,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0402FR-0751KL"
+			(at 91.44 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 91.44 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
 			(at 91.44 148.59 90)
 			(effects
 				(font
@@ -9768,6 +10635,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

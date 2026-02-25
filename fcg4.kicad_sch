@@ -144,6 +144,24 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 125.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 125.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94"
