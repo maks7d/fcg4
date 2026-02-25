@@ -3433,7 +3433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWM1"
+		(property "Value" "M1"
 			(at 159.512 130.302 0)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SDA"
 			(at 40.64 46.9899 0)
 			(effects
 				(font
@@ -4496,7 +4496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SCL"
 			(at 40.64 52.0699 0)
 			(effects
 				(font
@@ -5030,7 +5030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWM3"
+		(property "Value" "M3"
 			(at 181.102 130.302 0)
 			(effects
 				(font
@@ -5429,7 +5429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWM4"
+		(property "Value" "M4"
 			(at 192.532 130.302 0)
 			(effects
 				(font
@@ -5678,7 +5678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "9V"
 			(at 41.91 134.6199 0)
 			(effects
 				(font
@@ -5744,7 +5744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWM2"
+		(property "Value" "M2"
 			(at 169.672 130.302 0)
 			(effects
 				(font
