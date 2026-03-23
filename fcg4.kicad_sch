@@ -163,7 +163,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94"
 					(reference "H1")
 					(unit 1)

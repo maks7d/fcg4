@@ -430,212 +430,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MAX40203AUK+T_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.588 9.652 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MAX40203AUK+T"
-				(at -5.588 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "fcg4_fp:SOT95P280X145-5M"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX40203AUK+T - IDEAL DIODE CURRENT SW, -40 TO 125DEG C"
-				(at 1.778 13.462 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "700-MAX40203AUK+T"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40203AUK%2bT?qs=l7cgNqFNU1j1dlDj29Iz0A%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Analog Devices"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MAX40203AUK+T"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MAX40203AUK+T_1_1_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "N.C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "fcg4:AP2112K-1.8TRG1"
 			(pin_names
 				(offset 0.254)
@@ -1825,6 +1619,17 @@
 		)
 		(uuid "03453db4-b453-4f76-bfa8-622f5c773493")
 	)
+	(text "Vérifier pin EN"
+		(exclude_from_sim no)
+		(at 138.684 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 209 3 8 1)
+			)
+		)
+		(uuid "0ae79e79-f0b7-4905-979f-1779e4fa543f")
+	)
 	(text "Vout = Vref * (1 + (Rout/Rgnd))\n\nPour MP2456GJ-Z, 0,792V < Vref < 0,832V (cf datasheet)\n"
 		(exclude_from_sim no)
 		(at 68.834 126.238 0)
@@ -2028,7 +1833,7 @@
 		(uuid "d1012ad8-8eed-4afd-9b6b-96b3b4ddbf46")
 	)
 	(junction
-		(at 107.95 34.29)
+		(at 105.41 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db2be6f4-5e74-4ab7-88ce-eaff276ecbad")
@@ -2195,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 109.22 34.29)
+			(xy 105.41 34.29) (xy 106.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2450,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 147.32) (xy 45.72 147.32)
+			(xy 44.45 147.32) (xy 52.07 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2460,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 34.29) (xy 107.95 34.29)
+			(xy 100.33 34.29) (xy 105.41 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2875,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 147.32) (xy 54.61 147.32)
+			(xy 59.69 147.32) (xy 60.96 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3005,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 107.95 35.56)
+			(xy 105.41 34.29) (xy 105.41 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +2890,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 107.95 44.45)
+			(xy 105.41 43.18) (xy 105.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3115,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 38.1) (xy 77.47 40.64)
+			(xy 77.47 38.1) (xy 77.47 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3265,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 147.32) (xy 92.71 147.32)
+			(xy 91.44 147.32) (xy 100.33 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3465,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 147.32) (xy 101.6 147.32)
+			(xy 107.95 147.32) (xy 109.22 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3533,6 +3338,16 @@
 		)
 		(uuid "fc6036c6-2051-4672-8de0-b241bca3a1dd")
 	)
+	(label "RC_FB9V"
+		(at 92.71 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0da76ad6-e37d-40b5-8a43-03e92cbef184")
+	)
 	(label "FB_5V5"
 		(at 27.94 147.32 0)
 		(effects
@@ -3572,6 +3387,16 @@
 			(justify left bottom)
 		)
 		(uuid "41ee16d0-c2f2-48af-b786-db31a8268571")
+	)
+	(label "EN_5V"
+		(at 63.5 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4506d60c-d47c-489a-bb96-b0ea3cd2fcb8")
 	)
 	(label "SW_9V"
 		(at 172.72 100.33 0)
@@ -3613,6 +3438,16 @@
 		)
 		(uuid "866d875e-e5af-46bc-8eea-3e2064bd3299")
 	)
+	(label "EN_9V"
+		(at 189.23 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba33d699-476d-494f-ad14-fd62d742efcd")
+	)
 	(label "SW_9V"
 		(at 217.17 90.17 0)
 		(effects
@@ -3622,6 +3457,16 @@
 			(justify left bottom)
 		)
 		(uuid "dca4d5cb-afd0-40bd-a905-1521fa1abd89")
+	)
+	(label "RC_FB5V"
+		(at 45.72 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6b204d2-bb06-4267-95c4-065fff3f2307")
 	)
 	(label "FB_5V5"
 		(at 55.88 95.25 0)
@@ -3701,7 +3546,7 @@
 	)
 	(global_label "VDD_MCU"
 		(shape input)
-		(at 109.22 34.29 0)
+		(at 106.68 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3711,7 +3556,7 @@
 		)
 		(uuid "289a3d89-c688-4c68-89b4-eb7c43be3515")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.8533 34.29 0)
+			(at 118.3133 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3612,7 @@
 	)
 	(global_label "9V_BEC"
 		(shape input)
-		(at 101.6 147.32 0)
+		(at 109.22 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3777,7 +3622,7 @@
 		)
 		(uuid "8ad99d18-60d7-4645-ac87-3aec678f9bee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.5399 147.32 0)
+			(at 119.1599 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3656,7 @@
 	)
 	(global_label "5V5_BEC"
 		(shape input)
-		(at 54.61 147.32 0)
+		(at 60.96 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3821,7 +3666,7 @@
 		)
 		(uuid "9a1ad88a-ce31-41db-8ad3-fe080946d535")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7594 147.32 0)
+			(at 72.1094 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +3810,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 39.37 0)
+		(at 105.41 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3973,7 +3818,7 @@
 		(dnp no)
 		(uuid "0204b27a-91c9-42ac-85bc-cd3b1320fc55")
 		(property "Reference" "C1"
-			(at 110.998 37.338 0)
+			(at 108.458 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3827,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 111.76 40.6399 0)
+			(at 109.22 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,8 +3835,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 108.9152 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.3752 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,8 +3844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1518208.pdf"
-			(at 107.95 39.37 0)
+		(property "Datasheet" "~"
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +3854,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +3863,7 @@
 			)
 		)
 		(property "LCSC Part Name" "C1518208"
-			(at 107.95 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +3872,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "muRata"
-			(at 107.95 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +3881,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R61H105KE05D"
-			(at 107.95 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +3890,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 107.95 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +3899,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 107.95 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.782 152.4 90)
 			(effects
 				(font
@@ -4375,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C155695.pdf"
+		(property "Datasheet" "~"
 			(at 35.56 152.4 0)
 			(effects
 				(font
@@ -4445,7 +4290,7 @@
 			(uuid "ad0937cc-ebdb-4179-b641-83ed0a29332a")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "R1")
 					(unit 1)
@@ -4511,7 +4356,7 @@
 			(uuid "80abe04b-0e28-425d-95e4-0630994a3da6")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "#PWR01")
 					(unit 1)
@@ -4546,7 +4391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.4448 82.55 0)
 			(effects
 				(font
@@ -4555,7 +4400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C194427.pdf"
+		(property "Datasheet" "~"
 			(at 105.41 86.36 0)
 			(effects
 				(font
@@ -4670,7 +4515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C403725.pdf"
+		(property "Datasheet" "~"
 			(at 200.66 143.51 0)
 			(effects
 				(font
@@ -4932,7 +4777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.772 152.4 90)
 			(effects
 				(font
@@ -4941,7 +4786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C137988.pdf"
+		(property "Datasheet" "~"
 			(at 82.55 152.4 0)
 			(effects
 				(font
@@ -5056,7 +4901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C403725.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 143.51 0)
 			(effects
 				(font
@@ -5160,7 +5005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.63 149.098 90)
 			(effects
 				(font
@@ -5169,7 +5014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C26978.pdf"
+		(property "Datasheet" "~"
 			(at 87.63 147.32 0)
 			(effects
 				(font
@@ -5284,7 +5129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C403725.pdf"
+		(property "Datasheet" "~"
 			(at 223.52 143.51 0)
 			(effects
 				(font
@@ -5364,7 +5209,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 44.45 0)
+		(at 105.41 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5373,7 +5218,7 @@
 		(fields_autoplaced yes)
 		(uuid "224f1f7a-27f2-4292-9644-215296fdfc59")
 		(property "Reference" "#PWR014"
-			(at 107.95 50.8 0)
+			(at 105.41 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 49.53 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 44.45 0)
+			(at 105.41 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 44.45 0)
+			(at 105.41 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 44.45 0)
+			(at 105.41 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 82.55 0)
 			(effects
 				(font
@@ -5464,7 +5309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C194427.pdf"
+		(property "Datasheet" "~"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -5610,7 +5455,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 147.32 270)
+		(at 104.14 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5618,7 +5463,7 @@
 		(dnp no)
 		(uuid "3e7035ea-f5bc-459f-9ffa-a91990c87abe")
 		(property "Reference" "C14"
-			(at 94.996 150.876 90)
+			(at 102.616 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5472,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 94.742 143.51 90)
+			(at 102.362 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,8 +5480,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 92.71 148.2852 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 100.33 148.2852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,8 +5489,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C29519229.pdf"
-			(at 96.52 147.32 0)
+		(property "Datasheet" "~"
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +5499,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 147.32 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5508,7 @@
 			)
 		)
 		(property "LCSC Part Name" "C29519229"
-			(at 96.52 147.32 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +5517,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "muRata"
-			(at 96.52 147.32 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +5526,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM188C61E226ME01D"
-			(at 96.52 147.32 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +5535,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 96.52 147.32 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5544,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 96.52 147.32 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/175/1/AP2112.pdf"
+		(property "Datasheet" "AP2112K-1.8TRG1"
 			(at 198.628 24.892 0)
 			(effects
 				(font
@@ -5838,7 +5683,7 @@
 			(uuid "dcc775eb-7547-42a4-afd3-4bb17bd45905")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "U5")
 					(unit 1)
@@ -5919,10 +5764,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b653c41-30d3-4d3f-aad6-d60dc3651ad1")
 		(property "Reference" "R3"
-			(at 200.66 69.85 90)
+			(at 200.66 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,14 +5774,14 @@
 			)
 		)
 		(property "Value" "500k"
-			(at 200.66 72.39 90)
+			(at 200.66 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.66 74.422 90)
 			(effects
 				(font
@@ -5946,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C138033.pdf"
+		(property "Datasheet" "~"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -6061,7 +5905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C403725.pdf"
+		(property "Datasheet" "~"
 			(at 212.09 143.51 0)
 			(effects
 				(font
@@ -6315,7 +6159,7 @@
 			(uuid "b407a784-440a-4caf-a054-5b83677793e3")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "D3")
 					(unit 1)
@@ -6349,7 +6193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.64 149.098 90)
 			(effects
 				(font
@@ -6358,7 +6202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C26978.pdf"
+		(property "Datasheet" "~"
 			(at 40.64 147.32 0)
 			(effects
 				(font
@@ -6463,7 +6307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.7548 93.98 0)
 			(effects
 				(font
@@ -6472,7 +6316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C194427.pdf"
+		(property "Datasheet" "~"
 			(at 45.72 97.79 0)
 			(effects
 				(font
@@ -6752,7 +6596,7 @@
 			(uuid "9ff4fda8-1aa6-482a-93fa-e2f4ed538a55")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "U4")
 					(unit 1)
@@ -6787,7 +6631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.7548 90.17 0)
 			(effects
 				(font
@@ -6796,7 +6640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C194427.pdf"
+		(property "Datasheet" "~"
 			(at 172.72 93.98 0)
 			(effects
 				(font
@@ -6967,7 +6811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 44.45 0)
 			(effects
 				(font
@@ -6976,7 +6820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1518208.pdf"
+		(property "Datasheet" "~"
 			(at 195.58 40.64 0)
 			(effects
 				(font
@@ -7046,7 +6890,7 @@
 			(uuid "6e83ce0b-6427-4609-850f-e920caad2832")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "C20")
 					(unit 1)
@@ -7081,7 +6925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.0948 78.74 0)
 			(effects
 				(font
@@ -7090,7 +6934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C194427.pdf"
+		(property "Datasheet" "~"
 			(at 226.06 82.55 0)
 			(effects
 				(font
@@ -7196,7 +7040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 136.652 156.21 90)
 			(effects
 				(font
@@ -7205,7 +7049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 156.21 0)
 			(effects
 				(font
@@ -7275,7 +7119,7 @@
 			(uuid "5cc8a510-41e1-4ea4-b366-d92cca2df698")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "R7")
 					(unit 1)
@@ -7350,16 +7194,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 40.64 0)
+		(at 77.47 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a267b8ec-3a36-4df6-9863-662f13fe4bec")
 		(property "Reference" "#PWR011"
-			(at 77.47 46.99 0)
+			(at 77.47 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 45.72 0)
+			(at 77.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 40.64 0)
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 40.64 0)
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 40.64 0)
+			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C29519229.pdf"
+		(property "Datasheet" "~"
 			(at 232.41 95.25 0)
 			(effects
 				(font
@@ -7622,7 +7465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 136.652 166.37 90)
 			(effects
 				(font
@@ -7631,7 +7474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C106235.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 166.37 0)
 			(effects
 				(font
@@ -7743,7 +7586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C39846661.pdf"
+		(property "Datasheet" "~"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -7813,7 +7656,7 @@
 			(uuid "3e630f62-7fcb-4828-a1eb-70370db9292a")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "L1")
 					(unit 1)
@@ -8072,7 +7915,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MAX40203AUK+T_1")
 		(lib_id "fcg4:MAX40203AUK+T")
 		(at 49.53 29.21 0)
 		(unit 1)
@@ -8220,7 +8062,7 @@
 			(uuid "74048e3b-50f1-42ee-a4d5-281d8895adc8")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "D1")
 					(unit 1)
@@ -8230,7 +8072,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 147.32 270)
+		(at 55.88 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8238,7 +8080,7 @@
 		(dnp no)
 		(uuid "ca1da511-e744-4063-9060-b4637fa9120e")
 		(property "Reference" "C13"
-			(at 48.006 150.876 90)
+			(at 54.356 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8089,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 47.752 143.51 90)
+			(at 54.102 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,8 +8097,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.72 148.2852 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 52.07 148.2852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,8 +8106,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C29519229.pdf"
-			(at 49.53 147.32 0)
+		(property "Datasheet" "~"
+			(at 55.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8116,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 147.32 0)
+			(at 55.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8125,7 @@
 			)
 		)
 		(property "LCSC Part Name" "C29519229"
-			(at 49.53 147.32 0)
+			(at 55.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +8134,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "muRata"
-			(at 49.53 147.32 0)
+			(at 55.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +8143,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM188C61E226ME01D"
-			(at 49.53 147.32 0)
+			(at 55.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +8152,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 49.53 147.32 0)
+			(at 55.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +8161,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 49.53 147.32 0)
+			(at 55.88 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +8341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 50.8 0)
 			(effects
 				(font
@@ -8508,7 +8350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1518208.pdf"
+		(property "Datasheet" "~"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -8613,7 +8455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 231.4448 78.74 0)
 			(effects
 				(font
@@ -8622,7 +8464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C194427.pdf"
+		(property "Datasheet" "~"
 			(at 232.41 82.55 0)
 			(effects
 				(font
@@ -8888,7 +8730,7 @@
 			(uuid "530a63da-bb57-4dc5-a2f1-4b26fa81334c")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/1e919846-8db7-427a-a45e-eaa9fec3e7ae"
 					(reference "IC1")
 					(unit 1)
@@ -8932,7 +8774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C29519229.pdf"
+		(property "Datasheet" "~"
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -9018,10 +8860,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6c8f394-3bd5-47af-b1fd-41521cc32808")
 		(property "Reference" "R13"
-			(at 73.66 73.66 90)
+			(at 73.66 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,14 +8870,14 @@
 			)
 		)
 		(property "Value" "500k"
-			(at 73.66 76.2 90)
+			(at 73.66 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 78.232 90)
 			(effects
 				(font
@@ -9045,7 +8886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C138033.pdf"
+		(property "Datasheet" "~"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -9157,7 +8998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C39846661.pdf"
+		(property "Datasheet" "~"
 			(at 227.33 90.17 0)
 			(effects
 				(font
@@ -9328,7 +9169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 239.7252 44.45 0)
 			(effects
 				(font
@@ -9337,7 +9178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1518208.pdf"
+		(property "Datasheet" "~"
 			(at 238.76 40.64 0)
 			(effects
 				(font

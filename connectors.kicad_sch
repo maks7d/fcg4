@@ -3781,7 +3781,7 @@
 			(uuid "6c1425da-c4e3-4ece-beb4-f6fdcfcbd458")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/895fabe0-ab4c-4c61-9719-dac54426ec22"
 					(reference "TP1")
 					(unit 1)
@@ -4102,7 +4102,7 @@
 			(uuid "0bb888c0-fc3e-44f0-8e48-ed1b0f3fa777")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/895fabe0-ab4c-4c61-9719-dac54426ec22"
 					(reference "TP2")
 					(unit 1)
@@ -4703,7 +4703,7 @@
 			(uuid "70da45a9-a7c3-4cbb-88cb-132f02e28006")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/895fabe0-ab4c-4c61-9719-dac54426ec22"
 					(reference "J2")
 					(unit 1)
@@ -5024,7 +5024,7 @@
 			(uuid "62ad1165-fc86-4fba-a972-40695a72e630")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/895fabe0-ab4c-4c61-9719-dac54426ec22"
 					(reference "#PWR031")
 					(unit 1)
@@ -5787,7 +5787,7 @@
 			(uuid "78a3b11b-a7e6-49bf-9523-5be0a0799941")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/895fabe0-ab4c-4c61-9719-dac54426ec22"
 					(reference "U6")
 					(unit 1)
@@ -5981,7 +5981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
+		(property "Datasheet" "EXB-28V101JX"
 			(at 162.56 60.96 0)
 			(effects
 				(font
@@ -6070,7 +6070,7 @@
 			(uuid "7a9ca2e2-5e27-42c6-884f-e77e63a3c3b0")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/895fabe0-ab4c-4c61-9719-dac54426ec22"
 					(reference "R12")
 					(unit 1)

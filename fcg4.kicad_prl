@@ -49,10 +49,11 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_820000f7",
+    "visible_layers": "00000000_00000000_55557fdd_ff7fffff",
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""

@@ -5733,7 +5733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.55 72.898 90)
 			(effects
 				(font
@@ -5742,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
+		(property "Datasheet" "~"
 			(at 82.55 71.12 0)
 			(effects
 				(font
@@ -5847,7 +5847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 25.4 81.5848 0)
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C76984.pdf"
+		(property "Datasheet" "~"
 			(at 21.59 82.55 0)
 			(effects
 				(font
@@ -6232,7 +6232,7 @@
 			(uuid "7498c6b6-5651-47d9-830d-f97757b6c8a9")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "IC3")
 					(unit 1)
@@ -6267,7 +6267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.6352 111.76 0)
 			(effects
 				(font
@@ -6276,7 +6276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C76984.pdf"
+		(property "Datasheet" "~"
 			(at 26.67 107.95 0)
 			(effects
 				(font
@@ -6381,7 +6381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.9848 182.88 0)
 			(effects
 				(font
@@ -6390,7 +6390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1518208.pdf"
+		(property "Datasheet" "~"
 			(at 107.95 186.69 0)
 			(effects
 				(font
@@ -6626,7 +6626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 243.5352 34.29 0)
 			(effects
 				(font
@@ -6635,7 +6635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
+		(property "Datasheet" "~"
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -6889,7 +6889,7 @@
 			(uuid "c248cd75-c88c-4bea-ae45-42c1b1c48e4a")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "FL1")
 					(unit 1)
@@ -7075,7 +7075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 66.548 90)
 			(effects
 				(font
@@ -7084,7 +7084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
+		(property "Datasheet" "~"
 			(at 68.58 64.77 0)
 			(effects
 				(font
@@ -7321,7 +7321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 262.5852 34.29 0)
 			(effects
 				(font
@@ -7330,7 +7330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
+		(property "Datasheet" "~"
 			(at 261.62 30.48 0)
 			(effects
 				(font
@@ -7435,7 +7435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.2352 34.29 0)
 			(effects
 				(font
@@ -7444,7 +7444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
+		(property "Datasheet" "~"
 			(at 255.27 30.48 0)
 			(effects
 				(font
@@ -7765,7 +7765,7 @@
 			(uuid "0898d610-b43b-406a-84f9-83e586d4dc03")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "Y1")
 					(unit 1)
@@ -7800,7 +7800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 182.88 0)
 			(effects
 				(font
@@ -7809,7 +7809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
+		(property "Datasheet" "~"
 			(at 99.06 186.69 0)
 			(effects
 				(font
@@ -7879,7 +7879,7 @@
 			(uuid "5eb03246-d4c9-4cf6-a4ff-5e6b8c839fbb")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "C3")
 					(unit 1)
@@ -7979,7 +7979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 249.8852 34.29 0)
 			(effects
 				(font
@@ -7988,7 +7988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
+		(property "Datasheet" "~"
 			(at 248.92 30.48 0)
 			(effects
 				(font
@@ -8144,7 +8144,7 @@
 			(uuid "fd431bd2-d8f5-4c04-9ec1-e36e34488bbf")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "JP1")
 					(unit 1)
@@ -8179,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 114.6048 179.07 0)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
+		(property "Datasheet" "~"
 			(at 115.57 182.88 0)
 			(effects
 				(font
@@ -8293,7 +8293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.7648 179.07 0)
 			(effects
 				(font
@@ -8302,7 +8302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1518208.pdf"
+		(property "Datasheet" "~"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -8405,7 +8405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 65.278 90)
 			(effects
 				(font
@@ -8414,7 +8414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C60490.pdf"
+		(property "Datasheet" "~"
 			(at 106.68 63.5 0)
 			(effects
 				(font
@@ -8735,7 +8735,7 @@
 			(uuid "9eb86bfb-50b4-4466-9224-4980d4c19892")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "J1")
 					(unit 1)
@@ -8834,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.31 102.108 90)
 			(effects
 				(font
@@ -8843,7 +8843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105872.pdf"
+		(property "Datasheet" "~"
 			(at 194.31 100.33 0)
 			(effects
 				(font
@@ -8913,7 +8913,7 @@
 			(uuid "fee9e257-40bd-4049-9565-7bd22852b6bb")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "R10")
 					(unit 1)
@@ -8948,7 +8948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.56 127.3048 0)
 			(effects
 				(font
@@ -8957,7 +8957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C77020.pdf"
+		(property "Datasheet" "~"
 			(at 31.75 128.27 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.31 104.648 90)
 			(effects
 				(font
@@ -9134,7 +9134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105872.pdf"
+		(property "Datasheet" "~"
 			(at 194.31 102.87 0)
 			(effects
 				(font
@@ -9302,7 +9302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.83 104.648 90)
 			(effects
 				(font
@@ -9311,7 +9311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C185439.pdf"
+		(property "Datasheet" "~"
 			(at 36.83 102.87 0)
 			(effects
 				(font
@@ -9381,7 +9381,7 @@
 			(uuid "52065bb0-9c86-4254-b1dd-c168d625b583")
 		)
 		(instances
-			(project ""
+			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "R9")
 					(unit 1)
