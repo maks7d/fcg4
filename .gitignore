@@ -2,3 +2,8 @@
 *.lck
 *backup*
 *.DS_Store
+_autosave-fcg4.kicad_pcb
+*.zip
+fabrication-toolkit-options.json
+*.gbr
+*.gbrjob
