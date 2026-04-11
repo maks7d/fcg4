@@ -1,4 +1,4 @@
-27242872494846852
+27244659711279432
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107402,6 +107402,13 @@ GCT_USB4105-GF-A-120
 16
 fcg4_fp
 JST_SM08B-SRSS-TB
+
+
+0
+10
+10
+fcg4_fp
+LGA-10_L2.0-W2.0-P0.50-TL_BMP580
 
 
 0

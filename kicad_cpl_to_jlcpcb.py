@@ -1,73 +1,98 @@
+import argparse
 import csv
-import sys
-import os
+from pathlib import Path
+
+
+def normalize_layer(layer):
+    value = layer.strip().lower()
+    if value == "top":
+        return "Top"
+    if value == "bottom":
+        return "Bottom"
+    return layer.strip().capitalize()
+
+
+def normalize_rotation(rotation):
+    value = float(rotation.strip()) % 360.0
+    if value.is_integer():
+        return str(int(value))
+    return f"{value:.3f}".rstrip("0").rstrip(".")
+
+
+def format_mm(value):
+    text = value.strip()
+    if text.lower().endswith("mm"):
+        return text
+    return f"{float(text):.4f}mm"
+
 
 def convert_kicad_to_jlcpcb(input_path, output_path):
     print(f"Converting '{input_path}' to '{output_path}'...")
 
+    rows = []
+    with open(input_path, mode="r", newline="", encoding="utf-8") as f_in:
+        reader = csv.DictReader(f_in)
+        if reader.fieldnames is None:
+            raise ValueError("Input CSV has no header.")
+
+        fieldnames = [field.strip() for field in reader.fieldnames]
+        reader.fieldnames = fieldnames
+
+        required = ["Ref", "PosX", "PosY", "Rot", "Side"]
+        missing = [col for col in required if col not in fieldnames]
+        if missing:
+            raise ValueError(f"Missing columns {missing}. Found: {fieldnames}")
+
+        for row in reader:
+            designator = row["Ref"].strip()
+            if not designator:
+                continue
+
+            rows.append(
+                {
+                    "Designator": designator,
+                    "Mid X": format_mm(row["PosX"]),
+                    "Mid Y": format_mm(row["PosY"]),
+                    "Layer": normalize_layer(row["Side"]),
+                    "Rotation": normalize_rotation(row["Rot"]),
+                }
+            )
+
+    output = Path(output_path)
+    output.parent.mkdir(parents=True, exist_ok=True)
+
+    with output.open(mode="w", newline="", encoding="utf-8") as f_out:
+        out_fields = ["Designator", "Mid X", "Mid Y", "Layer", "Rotation"]
+        writer = csv.DictWriter(f_out, fieldnames=out_fields)
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print(f"Successfully wrote {len(rows)} components.")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Convert KiCad CPL to JLCPCB CPL format")
+    parser.add_argument(
+        "input",
+        nargs="?",
+        default="CAM/assembly/fcg4-all-pos.csv",
+        help="KiCad CPL file (default: CAM/assembly/fcg4-top-pos.csv)",
+    )
+    parser.add_argument(
+        "output",
+        nargs="?",
+        default="CAM/assembly/fcg4-top-jlcpcb.csv",
+        help="Output JLCPCB CPL file (default: CAM/assembly/fcg4-top-jlcpcb.csv)",
+    )
+    args = parser.parse_args()
+
     try:
-        # 1. Read input rows efficiently
-        rows = []
-        with open(input_path, mode='r', newline='', encoding='utf-8') as f_in:
-            # Detect format (comma separated, maybe quoted)
-            # We trust standard csv reader handles quotes automatically
-            reader = csv.DictReader(f_in)
-            
-            # Normalize field names (strip whitespace)
-            fieldnames = [field.strip() for field in reader.fieldnames]
-            reader.fieldnames = fieldnames
-            
-            # Check required columns
-            required = ['Ref', 'PosX', 'PosY', 'Rot', 'Side']
-            missing = [col for col in required if col not in fieldnames]
-            
-            if missing:
-                print(f"Error: Missing columns {missing}. Found: {fieldnames}")
-                return
-
-            for row in reader:
-                # 2. Extract and transform data
-                # Strip whitespace from values just in case
-                designator = row['Ref'].strip()
-                mid_x = row['PosX'].strip()
-                mid_y = row['PosY'].strip()
-                rotation = row['Rot'].strip()
-                
-                # Check layer case: 'top' -> 'Top'
-                layer = row['Side'].strip().capitalize()
-                
-                rows.append({
-                    'Designator': designator,
-                    'Mid X': mid_x,
-                    'Mid Y': mid_y,
-                    'Layer': layer,
-                    'Rotation': rotation
-                })
-
-        # 3. Write output file
-        with open(output_path, mode='w', newline='', encoding='utf-8') as f_out:
-            fieldnames = ['Designator', 'Mid X', 'Mid Y', 'Layer', 'Rotation']
-            writer = csv.DictWriter(f_out, fieldnames=fieldnames)
-            
-            writer.writeheader()
-            writer.writerows(rows)
-            
-        print(f"Successfully wrote {len(rows)} components to clean file.")
-
+        convert_kicad_to_jlcpcb(args.input, args.output)
     except FileNotFoundError:
-        print(f"Error: File '{input_path}' not found.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"Error: File '{args.input}' not found.")
+    except ValueError as exc:
+        print(f"Error: {exc}")
+
 
 if __name__ == "__main__":
-    # Default paths matching the user request
-    input_file = "CAM/assembly/fcg4-top-pos.csv"
-    output_file = "CAM/assembly/fcg4-top-clean.csv"
-    
-    # Allow overriding via command line
-    if len(sys.argv) > 1:
-        input_file = sys.argv[1]
-    if len(sys.argv) > 2:
-        output_file = sys.argv[2]
-        
-    convert_kicad_to_jlcpcb(input_file, output_file)
+    main()

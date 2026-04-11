@@ -2621,6 +2621,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2807,7 +2932,7 @@
 		(at 242.57 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "540a090d-edef-4506-bdeb-66996888ae03")
+		(uuid "57b76d41-27b7-4c8a-a64f-f596af073f6e")
 	)
 	(junction
 		(at 73.66 72.39)
@@ -3369,6 +3494,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 29.21) (xy 161.29 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecba7e0-7cef-4938-b1dd-d038e53e44ad")
+	)
+	(wire
+		(pts
 			(xy 25.4 128.27) (xy 25.4 124.46)
 		)
 		(stroke
@@ -3569,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 22.86) (xy 242.57 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71891593-c8a2-45c6-a010-2e167f6304d4")
+	)
+	(wire
+		(pts
 			(xy 125.73 187.96) (xy 125.73 186.69)
 		)
 		(stroke
@@ -3616,6 +3761,16 @@
 			(type default)
 		)
 		(uuid "7a9e5a1f-6773-40ff-848a-be57606b6bae")
+	)
+	(wire
+		(pts
+			(xy 87.63 71.12) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b74e036-d8aa-4025-8e12-bc4e3d633252")
 	)
 	(wire
 		(pts
@@ -3736,16 +3891,6 @@
 			(type default)
 		)
 		(uuid "8e81a93a-f8c5-4cdd-a960-276bf7200af1")
-	)
-	(wire
-		(pts
-			(xy 238.76 24.13) (xy 242.57 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e974bba-d6fa-4535-9f99-6d274cef1973")
 	)
 	(wire
 		(pts
@@ -3939,6 +4084,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 110.49) (xy 114.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8cb548-7ab0-479f-8d23-30ea35c173d2")
+	)
+	(wire
+		(pts
 			(xy 99.06 191.77) (xy 99.06 190.5)
 		)
 		(stroke
@@ -4016,16 +4171,6 @@
 			(type default)
 		)
 		(uuid "b60c4e34-b7fa-4d78-bb39-dcbd602d51d2")
-	)
-	(wire
-		(pts
-			(xy 87.63 69.85) (xy 87.63 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b66f9d20-501b-4771-bd7d-af6865b76dc9")
 	)
 	(wire
 		(pts
@@ -4811,28 +4956,6 @@
 			)
 		)
 	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 66.04 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21be92e0-1f97-4c87-a4b7-e3a61d646879")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.4067 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FLASH_CS"
 		(shape input)
 		(at 58.42 115.57 180)
@@ -4943,28 +5066,6 @@
 			)
 		)
 	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 114.3 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f9e09ce-9269-4e51-86b0-42de401bd70f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.9333 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI3_SD0"
 		(shape input)
 		(at 82.55 88.9 90)
@@ -5053,28 +5154,6 @@
 			)
 		)
 	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 58.42 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53ede062-6b70-40d5-9e9a-e5fd1476bf93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.7867 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR2"
 		(shape input)
 		(at 87.63 170.18 270)
@@ -5132,72 +5211,6 @@
 		(uuid "698339aa-6cc8-425e-9ee0-6781b9217425")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.63 76.9039 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 107.95 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70ab9399-1203-4121-b0df-60bbbfc7ac60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.5833 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 161.29 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73404186-1f45-48f7-8d18-b287ece07955")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6567 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 87.63 69.85 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "769c1cf0-2a5d-41d6-a1b2-761d75bb9276")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 58.2167 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,28 +5308,6 @@
 			)
 		)
 	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 57.15 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0e35170-d710-4fa6-9a60-2394e59db708")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.5167 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VOLTAGE_SENSOR"
 		(shape input)
 		(at 69.85 170.18 270)
@@ -5330,28 +5321,6 @@
 		(uuid "a7a80ebf-e822-435e-b82b-23bdb09d7f55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.85 189.5542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 58.42 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a86be252-8708-47e8-a422-d094f9528a2e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.7867 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,28 +5462,6 @@
 			)
 		)
 	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 238.76 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c3c98d6b-26a2-4b29-bfda-edb9678b4f4e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1267 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GYRO_1_EXTI"
 		(shape input)
 		(at 58.42 120.65 180)
@@ -5533,28 +5480,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_MCU"
-		(shape input)
-		(at 111.76 62.23 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb228b6b-a28b-4b7d-9d96-86e372831302")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 50.5967 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5773,7 +5698,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 82.55 73.914 90)
 			(effects
 				(font
@@ -5808,7 +5733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C60490"
+		(property "LCSC Part Name" "C2907044"
 			(at 82.55 71.12 90)
 			(effects
 				(font
@@ -5817,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "FOJAN"
 			(at 82.55 71.12 90)
 			(effects
 				(font
@@ -5826,7 +5751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "FRC0603F5101TS"
 			(at 82.55 71.12 90)
 			(effects
 				(font
@@ -5922,7 +5847,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C76984"
+		(property "LCSC Part Name" "C277519"
 			(at 21.59 82.55 90)
 			(effects
 				(font
@@ -5931,7 +5856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 21.59 82.55 90)
 			(effects
 				(font
@@ -5940,7 +5865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM1555C1H8R2CA01D"
+		(property "Manufacturer_Part_Number" "CC0603CRNPO9BN8R2"
 			(at 21.59 82.55 90)
 			(effects
 				(font
@@ -5990,10 +5915,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1959db8e-c451-45c6-b197-43bbcdb23b7d")
 		(property "Reference" "IC3"
-			(at 116.84 106.6098 0)
+			(at 111.252 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +5925,7 @@
 			)
 		)
 		(property "Value" "STM32G473RCT6"
-			(at 116.84 109.1498 0)
+			(at 115.824 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,6 +6008,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C529361"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6342,7 +6275,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C76984"
+		(property "LCSC Part Name" "C277519"
 			(at 26.67 107.95 0)
 			(effects
 				(font
@@ -6351,7 +6284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 26.67 107.95 0)
 			(effects
 				(font
@@ -6360,7 +6293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM1555C1H8R2CA01D"
+		(property "Manufacturer_Part_Number" "CC0603CRNPO9BN8R2"
 			(at 26.67 107.95 0)
 			(effects
 				(font
@@ -6397,6 +6330,73 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 107.95 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2579a049-e34e-4959-b99d-b47d713deca5")
+		(property "Reference" "#PWR051"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 111.76 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bced33a9-f289-4bd6-92ed-c764965fbf47")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6456,7 +6456,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C1518208"
+		(property "LCSC Part Name" "C5199872"
 			(at 107.95 186.69 0)
 			(effects
 				(font
@@ -6465,7 +6465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 107.95 186.69 0)
 			(effects
 				(font
@@ -6474,7 +6474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R61H105KE05D"
+		(property "Manufacturer_Part_Number" "CL10B105KB8NQNC"
 			(at 107.95 186.69 0)
 			(effects
 				(font
@@ -6648,6 +6648,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 58.42 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dcbb375-62b7-4374-b6d8-4502f5eaa9b2")
+		(property "Reference" "#PWR052"
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 54.61 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 58.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41c80cff-9419-4e2c-96d8-789fe31627e7")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 242.57 30.48 0)
 		(unit 1)
@@ -6701,7 +6768,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C77020"
+		(property "LCSC Part Name" "C1591"
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -6710,7 +6777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -6719,7 +6786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -6946,6 +7013,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 66.04 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53947559-ea63-412c-98c5-580cf8594521")
+		(property "Reference" "#PWR054"
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 62.23 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc3e1453-7663-4a8e-89cb-0e47142311fb")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 57.15 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5498dc27-0182-496a-a09b-fb1f83692515")
+		(property "Reference" "#PWR055"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 53.34 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d06b3b8-88e0-4ebb-88db-2e6f4e8f14f1")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 62.23 72.39 0)
 		(unit 1)
@@ -7115,7 +7316,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "11k"
 			(at 68.58 67.564 90)
 			(effects
 				(font
@@ -7150,7 +7351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C60490"
+		(property "LCSC Part Name" "C25950"
 			(at 68.58 64.77 90)
 			(effects
 				(font
@@ -7159,7 +7360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 68.58 64.77 90)
 			(effects
 				(font
@@ -7168,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "0603WAF1102T5E"
 			(at 68.58 64.77 90)
 			(effects
 				(font
@@ -7396,7 +7597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C77020"
+		(property "LCSC Part Name" "C1591"
 			(at 261.62 30.48 0)
 			(effects
 				(font
@@ -7405,7 +7606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 261.62 30.48 0)
 			(effects
 				(font
@@ -7414,7 +7615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
 			(at 261.62 30.48 0)
 			(effects
 				(font
@@ -7510,7 +7711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C77020"
+		(property "LCSC Part Name" "C1591"
 			(at 255.27 30.48 0)
 			(effects
 				(font
@@ -7519,7 +7720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 255.27 30.48 0)
 			(effects
 				(font
@@ -7528,7 +7729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
 			(at 255.27 30.48 0)
 			(effects
 				(font
@@ -7803,6 +8004,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" "C5213675"
+			(at 27.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e5a60e3-7092-458e-9b8f-0aee564ed8b1")
 		)
@@ -7875,7 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C77020"
+		(property "LCSC Part Name" "C1591"
 			(at 99.06 186.69 0)
 			(effects
 				(font
@@ -7884,7 +8094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 99.06 186.69 0)
 			(effects
 				(font
@@ -7893,7 +8103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
 			(at 99.06 186.69 0)
 			(effects
 				(font
@@ -8054,7 +8264,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C77020"
+		(property "LCSC Part Name" "C1591"
 			(at 248.92 30.48 0)
 			(effects
 				(font
@@ -8063,7 +8273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 248.92 30.48 0)
 			(effects
 				(font
@@ -8072,7 +8282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
 			(at 248.92 30.48 0)
 			(effects
 				(font
@@ -8254,7 +8464,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C77020"
+		(property "LCSC Part Name" "C1591"
 			(at 115.57 182.88 0)
 			(effects
 				(font
@@ -8263,7 +8473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 115.57 182.88 0)
 			(effects
 				(font
@@ -8272,7 +8482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
 			(at 115.57 182.88 0)
 			(effects
 				(font
@@ -8368,7 +8578,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C1518208"
+		(property "LCSC Part Name" "C5199872"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -8377,7 +8587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -8386,7 +8596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R61H105KE05D"
+		(property "Manufacturer_Part_Number" "CL10B105KB8NQNC"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -8445,7 +8655,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 106.68 66.294 90)
 			(effects
 				(font
@@ -8480,7 +8690,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C60490"
+		(property "LCSC Part Name" "C2907044"
 			(at 106.68 63.5 90)
 			(effects
 				(font
@@ -8489,7 +8699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "FOJAN"
 			(at 106.68 63.5 90)
 			(effects
 				(font
@@ -8498,7 +8708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
+		(property "Manufacturer_Part_Number" "FRC0603F5101TS"
 			(at 106.68 63.5 90)
 			(effects
 				(font
@@ -8535,6 +8745,72 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 161.29 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aca3cf43-224b-4235-af40-dadb5c6cb90d")
+		(property "Reference" "#PWR048"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 161.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3efd3ce1-a5aa-4d4c-a7ee-4a80a5d1c620")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8792,6 +9068,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 58.42 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8901b8c-9721-4683-a9ae-54f6eaf9c159")
+		(property "Reference" "#PWR053"
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 54.61 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa066281-b511-4693-9567-c31225999907")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 86.36 0)
 		(unit 1)
@@ -8858,6 +9201,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 87.63 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc31fe5f-325f-4cba-ae0f-d695fd8e1f87")
+		(property "Reference" "#PWR056"
+			(at 87.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 87.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f68b568-37d6-4af2-8db6-65e9d7526e62")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 194.31 100.33 90)
 		(unit 1)
@@ -8874,7 +9283,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "5.1k"
 			(at 198.882 99.06 90)
 			(effects
 				(font
@@ -8909,7 +9318,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C105872"
+		(property "LCSC Part Name" "C2907044"
 			(at 194.31 100.33 90)
 			(effects
 				(font
@@ -8918,7 +9327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "FOJAN"
 			(at 194.31 100.33 90)
 			(effects
 				(font
@@ -8927,7 +9336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-075K1L"
+		(property "Manufacturer_Part_Number" "FRC0603F5101TS"
 			(at 194.31 100.33 90)
 			(effects
 				(font
@@ -8964,6 +9373,137 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 242.57 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c72504c3-5eca-474a-986e-9c895069be3e")
+		(property "Reference" "#PWR049"
+			(at 242.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 242.062 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 242.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "711213da-8a58-436e-9e46-28b43d5b0ee0")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 114.3 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccac50e1-8929-4cf2-a839-e8e80c3c767b")
+		(property "Reference" "#PWR050"
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 114.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a93104-d4cb-478e-be74-87dc7e5a55d8")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9023,7 +9563,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C77020"
+		(property "LCSC Part Name" "C1591"
 			(at 31.75 128.27 90)
 			(effects
 				(font
@@ -9032,7 +9572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "muRata"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 31.75 128.27 90)
 			(effects
 				(font
@@ -9041,7 +9581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
 			(at 31.75 128.27 90)
 			(effects
 				(font
@@ -9078,6 +9618,72 @@
 			(project "fcg4"
 				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 111.76 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e344176b-bb87-40cb-b6f8-c5efdc11184c")
+		(property "Reference" "#PWR057"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06ac7f42-e26b-46b2-b9d6-e8d597e4888e")
+		)
+		(instances
+			(project "fcg4"
+				(path "/ebe93c2f-0aae-4f69-99fc-930f63b0ac94/dd494bae-08c6-4b46-92c8-f2c39e9b21e0"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9165,7 +9771,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "5.1k"
 			(at 199.136 101.854 90)
 			(effects
 				(font
@@ -9200,7 +9806,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C105872"
+		(property "LCSC Part Name" "C2907044"
 			(at 194.31 102.87 90)
 			(effects
 				(font
@@ -9209,7 +9815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "FOJAN"
 			(at 194.31 102.87 90)
 			(effects
 				(font
@@ -9218,7 +9824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-075K1L"
+		(property "Manufacturer_Part_Number" "FRC0603F5101TS"
 			(at 194.31 102.87 90)
 			(effects
 				(font
@@ -9377,7 +9983,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "C185439"
+		(property "LCSC Part Name" "C2933176"
 			(at 36.83 102.87 90)
 			(effects
 				(font
@@ -9386,7 +9992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "FOJAN"
 			(at 36.83 102.87 90)
 			(effects
 				(font
@@ -9395,7 +10001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402FR-07249RL"
+		(property "Manufacturer_Part_Number" "FRC0603F2490TS"
 			(at 36.83 102.87 90)
 			(effects
 				(font
