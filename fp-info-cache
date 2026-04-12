@@ -1,4 +1,4 @@
-27244659711279432
+27246435715709778
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107358,6 +107358,13 @@ BGA4N35P2X2_72X72X50N
 0
 4
 4
+fcg4_fp
+BMI270
+14 pin LGA 
+Integrated Circuit
+0
+14
+14
 fcg4_fp
 CONN4_BM04B-SRSS_JST
 

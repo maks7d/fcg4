@@ -2848,16 +2848,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Se renseigner sur le type de pad smd en fabrication"
-		(exclude_from_sim no)
-		(at 131.064 70.358 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "151bbac0-93ba-4dea-9690-289f0fa1dd45")
-	)
 	(text "USB-C 16PIN "
 		(exclude_from_sim no)
 		(at 220.98 74.168 0)
@@ -5066,7 +5056,7 @@
 			)
 		)
 	)
-	(global_label "SPI3_SD0"
+	(global_label "SPI3_SDO"
 		(shape input)
 		(at 82.55 88.9 90)
 		(fields_autoplaced yes)
@@ -5078,7 +5068,7 @@
 		)
 		(uuid "49e3a383-8e0f-4dff-ae7f-241c8169dab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 76.9644 90)
+			(at 82.55 76.8434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5166,7 @@
 			)
 		)
 	)
-	(global_label "SPI1_SD0"
+	(global_label "SPI1_SDO"
 		(shape input)
 		(at 77.47 170.18 270)
 		(fields_autoplaced yes)
@@ -5188,7 +5178,7 @@
 		)
 		(uuid "60c47027-d068-4fe5-b23c-89eee060e5b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 182.1156 90)
+			(at 77.47 182.2366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
